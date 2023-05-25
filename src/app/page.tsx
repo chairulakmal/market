@@ -1,7 +1,5 @@
-import dynamic from 'next/dynamic';
 import Navbar from '@/components/Navbar';
 import Price from '@/components/Price';
-// const Price = dynamic(() => import('@/components/Price'), { ssr: false });
 
 const HomePage: React.FC = () => {
   return (

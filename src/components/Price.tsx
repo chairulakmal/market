@@ -10,7 +10,8 @@ type PriceData = {
   year: number;
 };
 
-const endpoint = process.env.NODE_ENV === 'development' ? '/api/' : 'https://api.pintu.co.id/v2/trade/price-changes';
+// const endpoint = process.env.NODE_ENV === 'development' ? '/api/' : 'https://api.pintu.co.id/v2/trade/price-changes';
+const endpoint = '/api/';
 
 const fetcher: () => Promise<PriceData[]> = async () => {
   try {
