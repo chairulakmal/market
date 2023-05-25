@@ -10,7 +10,7 @@ type PriceData = {
   year: number;
 };
 
-// const endpoint = process.env.NODE_ENV === 'development' ? '/api/' : 'https://api.pintu.co.id/v2/trade/price-changes';
+const refreshInterval = process.env.NODE_ENV === 'development' ? 10000 : 1000;
 const endpoint = '/api/';
 
 const fetcher: () => Promise<PriceData[]> = async () => {
@@ -40,7 +40,7 @@ const fetcher: () => Promise<PriceData[]> = async () => {
 
 const Price = (): JSX.Element => {
   let prices: PriceData[] = [];
-  const { data, error, isLoading } = useSWR<PriceData[]>(endpoint, fetcher, { refreshInterval: 1000 });
+  const { data, error, isLoading } = useSWR<PriceData[]>(endpoint, fetcher, { refreshInterval });
 
   if (error) {
     return <div>Failed to load</div>;
@@ -83,7 +83,7 @@ const Price = (): JSX.Element => {
         </tbody>
       </table>
       <small>
-            Price shown is in Indonesian Rupiah (IDR)
+        Price shown is in Indonesian Rupiah (IDR)
       </small>
     </>
   );
