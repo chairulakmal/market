@@ -6,12 +6,16 @@ import ThemeWatcher from '@/components/ThemeWatcher'
 
 const HomePage: React.FC = () => {
   return (
-    <main className='flex min-h-screen flex-col items-center justify-between p-24'>
-      <ThemeWatcher />
-      <DarkModeToggle />
-      <Navbar />
-      <Table />
-    </main>
+    <>
+      <div className='flex justify-end w-full'>
+        <ThemeWatcher />
+        <DarkModeToggle />
+      </div>
+      <main className='flex min-h-screen flex-col items-center justify-between p-24'>
+        <Navbar />
+        <Table />
+      </main>
+    </>
   )
 }
 
