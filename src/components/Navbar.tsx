@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Navbar = () => {
   return (
     <div className='mb-32 grid text-center lg:mb-0 lg:grid-cols-2 lg:text-left'>
@@ -15,7 +13,7 @@ const Navbar = () => {
           </span>
         </h2>
         <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-          Find source code of this web app
+          Find the source code of this app
         </p>
       </a>
 
@@ -31,7 +29,7 @@ const Navbar = () => {
           </span>
         </h2>
         <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-          Belajar lebih lanjut mengenai cryptocurrency
+          Learn more about cryptocurrencies
         </p>
       </a>
     </div>
