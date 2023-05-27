@@ -15,7 +15,6 @@ const fetcher: () => Promise<PriceData[]> = async () => {
         month: +item.month,
         year: +item.year,
       }))
-      console.debug({ prices })
       return prices
     } else {
       throw new Error('Request failed with status ' + response.status)
@@ -44,7 +43,6 @@ const fetchCurrencies: () => Promise<CurrencyData[]> = async () => {
         decimal_point: item.decimal_point,
         listingDate: item.listingDate,
       }))
-      console.debug({ currencies })
       return currencies
     } else {
       throw new Error('Request failed with status ' + response.status)
@@ -55,8 +53,10 @@ const fetchCurrencies: () => Promise<CurrencyData[]> = async () => {
   }
 }
 
-export default {
+const api = {
   fetchCurrencies,
   fetcher,
   endpoint,
 }
+
+export default api

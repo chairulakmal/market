@@ -1,7 +1,9 @@
 'use client'
-import useSWR from 'swr'
-import api from '@/api'
 import { useState, useEffect } from 'react'
+import api from '@/api'
+import useSWR from 'swr'
+import { currencyFormatter } from '@/utils'
+import PercentageChange from '@/components/PercentageChange'
 
 const Table: React.FC = (): JSX.Element => {
   const [currencies, setCurrencies] = useState<CurrencyData[]>([])
@@ -16,19 +18,19 @@ const Table: React.FC = (): JSX.Element => {
         setCurrencies(currenciesData)
       })
       .catch((currenciesError) => {
+        console.debug({ currenciesError })
         setError({
           message: currenciesError,
           code: 1,
         })
-        console.debug(error)
       })
   }, [])
 
-  const { data: pricesData, error: priceError } = useSWR<PriceData[]>(
-    api.endpoint,
-    api.fetcher,
-    { refreshInterval: 1000 }
-  )
+  const {
+    data: pricesData,
+    error: priceError,
+    isLoading,
+  } = useSWR<PriceData[]>(api.endpoint, api.fetcher, { refreshInterval: 10000 })
 
   useEffect(() => {
     if (priceError) {
@@ -44,26 +46,26 @@ const Table: React.FC = (): JSX.Element => {
     }
   }, [pricesData, priceError])
 
-  if (priceError) {
-    setError({
-      message: priceError,
-      code: 2,
-    })
-  }
-
   if (error?.message) {
     return <div>Error...</div>
+  }
+
+  if (isLoading) {
+    return <div>Loading...</div>
   }
 
   const priceMap = new Map<string, PriceData>()
 
   prices.forEach((price: PriceData) => {
-    priceMap.set(price.pair.split('/')[0], price)
+    const baseCurrency: string = price.pair.split('/')[0].toUpperCase()
+    priceMap.set(baseCurrency, price)
   })
 
   const filteredCurrencies = currencies
     .map((currency: CurrencyData) => {
-      const matchingPrice = priceMap.get(currency.currencyGroup.toLowerCase())
+      const matchingPrice: PriceData | undefined = priceMap.get(
+        currency.currencyGroup.toUpperCase()
+      )
       return {
         ...currency,
         price: matchingPrice || {
@@ -86,47 +88,50 @@ const Table: React.FC = (): JSX.Element => {
         <table className='min-w-full'>
           <thead>
             <tr>
-              <th className='py-2 text-left sm:whitespace-normal'>Name</th>
-              <th className='py-2 text-left sm:whitespace-normal hidden lg:table-cell'>
+              <th className='px-2 py-2 text-centre sm:whitespace-normal'>
+                Token
+              </th>
+              <th className='pr-8 text-centre sm:whitespace-normal hidden lg:table-cell'>
                 Pair
               </th>
-              <th className='py-2 text-left sm:whitespace-normal'>
-                Latest Price
+              <th className='px-2 sm:px-8 text-centre sm:whitespace-normal'>
+                Price
+                <small className='text-left sm:hidden mt-4'>(in IDR)</small>
               </th>
-              <th className='px-4 text-centre hidden sm:table-cell'>24h</th>
-              <th className='px-4 text-centre hidden md:table-cell'>1w</th>
-              <th className='px-4 text-centre hidden lg:table-cell'>1m</th>
-              <th className='px-4 text-centre hidden md:table-cell'>1y</th>
+              <th className='px-8 text-centre hidden sm:table-cell'>24h</th>
+              <th className='px-8 text-centre hidden md:table-cell'>1w</th>
+              <th className='px-8 text-centre hidden lg:table-cell'>1m</th>
+              <th className='px-8 text-centre hidden md:table-cell'>1y</th>
             </tr>
           </thead>
           <tbody>
             {filteredCurrencies.map((currency: CurrencyData) => (
               <tr key={currency.currencyGroup}>
-                <td className='py-2'>{currency.name}</td>
-                <td className='py-2 hidden lg:table-cell'>
-                  {currency.price.pair}
+                <td className='py-0 md:py-2'>{currency.name}</td>
+                <td className='text-right hidden lg:table-cell'>
+                  {currency.price.pair.toUpperCase()}
                 </td>
-                <td className='py-2'>
-                  {currency.price.latestPrice.toFixed(2)}
+                <td className='px-2 sm:px-4 text-right font-mono'>
+                  {currencyFormatter(currency.price.latestPrice)}
                 </td>
-                <td className='px-4 text-right hidden sm:table-cell'>
-                  {currency.price.day.toFixed(2)}
+                <td className='text-right hidden sm:table-cell font-mono'>
+                  <PercentageChange number={currency.price.day} />
                 </td>
-                <td className='px-4 text-right hidden md:table-cell'>
-                  {currency.price.week.toFixed(2)}
+                <td className='text-right hidden md:table-cell font-mono'>
+                  <PercentageChange number={currency.price.week} />
                 </td>
-                <td className='px-4 text-right hidden lg:table-cell'>
-                  {currency.price.month.toFixed(2)}
+                <td className='text-right hidden lg:table-cell font-mono'>
+                  <PercentageChange number={currency.price.month} />
                 </td>
-                <td className='px-4 text-right hidden md:table-cell'>
-                  {currency.price.year.toFixed(2)}
+                <td className='text-right hidden md:table-cell font-mono'>
+                  <PercentageChange number={currency.price.year} />
                 </td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
-      <small className='text-left block mt-4'>
+      <small className='text-left hidden md:block mt-4'>
         Price shown is in Indonesian Rupiah (IDR)
       </small>
     </>

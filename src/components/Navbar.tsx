@@ -1,8 +1,6 @@
-import React from 'react'
-
 const Navbar = () => {
   return (
-    <div className='mb-32 grid text-center lg:mb-0 lg:grid-cols-2 lg:text-left'>
+    <div className='mb-8 grid text-center lg:mb-0 md:grid-cols-2 md:text-left'>
       <a
         href='https://github.com/chairulakmal/market'
         className='group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30'
@@ -15,7 +13,7 @@ const Navbar = () => {
           </span>
         </h2>
         <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-          Find source code of this web app
+          Find the source code of this app
         </p>
       </a>
 
@@ -31,7 +29,7 @@ const Navbar = () => {
           </span>
         </h2>
         <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-          Belajar lebih lanjut mengenai cryptocurrency
+          Learn more about cryptocurrencies
         </p>
       </a>
     </div>
