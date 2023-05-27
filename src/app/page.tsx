@@ -1,13 +1,13 @@
-import Navbar from '@/components/Navbar';
-import Price from '@/components/Price';
+import Navbar from '@/components/Navbar'
+import Table from '@/components/Table'
 
 const HomePage: React.FC = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className='flex min-h-screen flex-col items-center justify-between p-24'>
       <Navbar />
-      <Price />
+      <Table />
     </main>
   )
 }
 
-export default HomePage;
+export default HomePage
