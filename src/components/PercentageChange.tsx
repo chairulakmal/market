@@ -14,8 +14,10 @@ const NumberFormat: React.FC<{
       <div className='flex items-start'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
-          viewBox='0 0 24 24'
+          viewBox='0 0 25 25'
           fill='currentColor'
+          stroke='currentColor'
+          strokeWidth={1}
           className='w-5 h-5'>
           <path
             fillRule='evenodd'
@@ -28,8 +30,10 @@ const NumberFormat: React.FC<{
       <div className='flex items-end'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
-          viewBox='0 0 24 24'
+          viewBox='0 0 25 25'
           fill='currentColor'
+          stroke='currentColor'
+          strokeWidth={1}
           className='w-5 h-5'>
           <path
             fillRule='evenodd'
@@ -41,9 +45,9 @@ const NumberFormat: React.FC<{
     ) : null
 
   return (
-    <div className={`flex justify-end font-medium ${numberStyle}`}>
+    <div className={`flex justify-end ${numberStyle}`}>
       {arrowIcon}
-      <div>{formattedNumber}</div>
+      <div className='font-semibold'>{formattedNumber}</div>
     </div>
   )
 }

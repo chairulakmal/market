@@ -111,7 +111,7 @@ const Table: React.FC = (): JSX.Element => {
                 <td className='text-right hidden lg:table-cell'>
                   {currency.price.pair.toUpperCase()}
                 </td>
-                <td className='px-2 sm:px-4 text-right font-mono'>
+                <td className='px-2 sm:px-4 text-right font-semibold font-mono'>
                   {currencyFormatter(currency.price.latestPrice)}
                 </td>
                 <td className='text-right hidden sm:table-cell font-mono'>
@@ -132,7 +132,7 @@ const Table: React.FC = (): JSX.Element => {
         </table>
       </div>
       <small className='text-left hidden md:block mt-4'>
-        Price shown is in Indonesian Rupiah (IDR)
+        Prices shown is in Indonesian Rupiah (IDR)
       </small>
     </>
   )
