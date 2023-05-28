@@ -47,7 +47,10 @@ const NumberFormat: React.FC<{
   return (
     <div className={`flex justify-end ${numberStyle}`}>
       {arrowIcon}
-      <div className='font-semibold'>{formattedNumber}</div>
+      <div className='font-semibold'>
+        {formattedNumber}
+        {percentage ? '%' : ''}
+      </div>
     </div>
   )
 }
