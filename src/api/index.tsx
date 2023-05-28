@@ -53,10 +53,13 @@ const fetchCurrencies: () => Promise<CurrencyData[]> = async () => {
   }
 }
 
+export const baseURL: string = 'https://pintu.co.id'
+
 const api = {
   fetchCurrencies,
   fetcher,
   endpoint,
+  baseURL,
 }
 
 export default api

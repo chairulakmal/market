@@ -1,4 +1,4 @@
-# Tox Bazaar
+# TokenBazar
 
 This is a [Next.js](https://nextjs.org/) project template bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -22,18 +22,18 @@ You can start editing the app and the page will auto-update as you edit the file
 - **Deployment**: Automatic deployment with [Vercel](https://vercel.com/).
 - **Data Fetching**: [SWR](https://swr.vercel.app/), the React hook library for data fetching, is utilized for efficient data management.
 
-## Public Endpoints
+## Token Prices Data
 
 The data presented in this project is obtained from the following public endpoints:
 
 <details>
 <summary>
-  Supported Currencies
+  Supported Token
 </summary>
 
 ---
 
-Retrieves a list of supported currencies.
+Retrieves a list of supported cryptocurrencies (tokens).
 
 - **URL**: `https://api.pintu.co.id/v2/wallet/supportedCurrencies`
 - **Method**: GET
@@ -54,7 +54,7 @@ Retrieves a list of supported currencies.
       "color": "#0A68F4",
       "currencySymbol": "Rp",
       "name": "Rupiah Token",
-      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_IDRT.svg",
+      "logo": "https://.../assets/images/logo/circle_IDRT.svg",
       "decimal_point": 0,
       "listingDate": "2020-09-15T09:43:42Z",
       "wallets": [
@@ -67,7 +67,7 @@ Retrieves a list of supported currencies.
           "explorer": "https://etherscan.io/tx/",
           "listingDate": "2020-09-15T09:43:43Z",
           "blockchainName": "Ethereum",
-          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+          "logo": "https://.../ERC-20.svg"
         },
         ...
       ]
@@ -107,8 +107,6 @@ Retrieves a list of supported currencies.
 </summary>
 
 ---
-
-## Price Changes
 
 Retrieves the price changes for different trading pairs.
 
