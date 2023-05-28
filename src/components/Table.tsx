@@ -106,7 +106,9 @@ const Table: React.FC = (): JSX.Element => {
           </thead>
           <tbody>
             {filteredCurrencies.map((currency: CurrencyData) => (
-              <tr key={currency.currencyGroup}>
+              <tr
+                key={currency.currencyGroup}
+                className='hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-gray-300 hover:dark:bg-opacity-30'>
                 <td className='py-0 md:py-2'>{currency.name}</td>
                 <td className='text-right hidden lg:table-cell'>
                   {currency.price.pair.toUpperCase()}
