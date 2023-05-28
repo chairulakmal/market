@@ -84,8 +84,8 @@ const Table: React.FC = (): JSX.Element => {
 
   return (
     <>
-      <div className='overflow-x-auto'>
-        <table className='min-w-full'>
+      <div>
+        <table className='table-auto'>
           <thead>
             <tr>
               <th className='px-2 py-2 text-centre sm:whitespace-normal'>
@@ -111,20 +111,20 @@ const Table: React.FC = (): JSX.Element => {
                 <td className='text-right hidden lg:table-cell'>
                   {currency.price.pair.toUpperCase()}
                 </td>
-                <td className='px-2 sm:px-4 text-right font-mono'>
+                <td className='px-2 sm:px-4 text-right font-semibold font-mono'>
                   {currencyFormatter(currency.price.latestPrice)}
                 </td>
                 <td className='text-right hidden sm:table-cell font-mono'>
-                  <PercentageChange number={currency.price.day} />
+                  <PercentageChange percentage={currency.price.day} />
                 </td>
                 <td className='text-right hidden md:table-cell font-mono'>
-                  <PercentageChange number={currency.price.week} />
+                  <PercentageChange percentage={currency.price.week} />
                 </td>
                 <td className='text-right hidden lg:table-cell font-mono'>
-                  <PercentageChange number={currency.price.month} />
+                  <PercentageChange percentage={currency.price.month} />
                 </td>
                 <td className='text-right hidden md:table-cell font-mono'>
-                  <PercentageChange number={currency.price.year} />
+                  <PercentageChange percentage={currency.price.year} />
                 </td>
               </tr>
             ))}
@@ -132,7 +132,7 @@ const Table: React.FC = (): JSX.Element => {
         </table>
       </div>
       <small className='text-left hidden md:block mt-4'>
-        Price shown is in Indonesian Rupiah (IDR)
+        Prices shown is in Indonesian Rupiah (IDR)
       </small>
     </>
   )
