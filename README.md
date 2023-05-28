@@ -1,6 +1,6 @@
 # TokenBazar
 
-This is a [Next.js](https://nextjs.org/) project template bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project template bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) using `TypeScript`, `Tailwind CSS`, `Cypress` and `ESLint`.
 
 ## Getting Started
 
@@ -16,24 +16,48 @@ You can start editing the app and the page will auto-update as you edit the file
 
 ## Features
 
-- **Font Optimization**: This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-- **Linting**: ESLint is set up to ensure code quality and consistency.
-- **Styling**: Tailwind CSS is integrated for easy and responsive styling.
-- **Deployment**: Automatic deployment with [Vercel](https://vercel.com/).
-- **Data Fetching**: [SWR](https://swr.vercel.app/), the React hook library for data fetching, is utilized for efficient data management.
+- **SWR**: [SWR](https://swr.vercel.app/), the React hook library is used for data fetching. It provides components with a stream of data updates.
+- **Tailwind**: The app integrates Tailwind CSS, a popular utility-first CSS framework, to facilitate easy and responsive styling.
+- **Linting**: ESLint and Prettier are set up to ensure code quality and consistency.
+- **Cypress**: Cypress is used for both end-to-end (e2e) and unit testing.
+- **Deployment**: The app is automatically deployed using [Vercel](https://vercel.com/), a popular hosting platform that provides seamless deployment workflows and scalability and works well with Next.js app.
 
 ## Token Prices Data
 
-The data presented in this project is obtained from the following public endpoints:
+The app utilizes two primary data types for its functionality, `CurrencyData` and `PriceData`:
+
+```typescript
+declare type CurrencyData = {
+  currencyGroup: string
+  name: string
+  currencySymbol: string
+  logo: number
+  color: string
+  decimal_point: number
+  listingDate: Date
+  price: PriceData
+}
+
+declare type PriceData = {
+  pair: string
+  latestPrice: number
+  day: number
+  week: number
+  month: number
+  year: number
+}
+```
+
+The data used in this project comes from two public endpoints listed below. The first endpoint gives us an array of `CurrencyData` objects that hold details about various cryptocurrencies or tokens. The second endpoint provides an array of `PriceData` objects, where the base currency in `PriceData.pair` matches the `CurrencyData.currencyGroup`. These endpoints allow the app to fetch real-time price data for presentation. However, it's important to note that only the second endpoint is used to update the data in real-time, as the first endpoint's data is not refreshed as frequently.
 
 <details>
 <summary>
-  Supported Token
+  Supported Tokens
 </summary>
 
 ---
 
-Retrieves a list of supported cryptocurrencies (tokens).
+Retrieves a list of supported tokens.
 
 - **URL**: `https://api.pintu.co.id/v2/wallet/supportedCurrencies`
 - **Method**: GET
@@ -108,7 +132,7 @@ Retrieves a list of supported cryptocurrencies (tokens).
 
 ---
 
-Retrieves the price changes for different trading pairs.
+Retrieves the price changes for different token trading pairs.
 
 - **URL**: `https://api.pintu.co.id/v2/trade/price-changes`
 - **Method**: GET
