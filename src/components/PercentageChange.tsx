@@ -6,7 +6,7 @@ const PercentageChange: React.FC<{
 }> = ({ percentage }) => {
   const formattedNumber = percentageFormatter(percentage)
 
-  const numberStyle =
+  const textStyle =
     percentage > 0 ? 'text-green-500' : percentage < 0 ? 'text-red-500' : 'text'
 
   const arrowIcon =
@@ -45,7 +45,7 @@ const PercentageChange: React.FC<{
     ) : null
 
   return (
-    <div className={`flex justify-end ${numberStyle}`} id='percentage'>
+    <div className={`flex justify-end ${textStyle}`} id='percentage'>
       {arrowIcon}
       <div className='font-semibold'>
         {formattedNumber}
