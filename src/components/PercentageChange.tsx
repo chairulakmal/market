@@ -45,7 +45,7 @@ const PercentageChange: React.FC<{
     ) : null
 
   return (
-    <div className={`flex justify-end ${numberStyle}`}>
+    <div className={`flex justify-end ${numberStyle}`} id='percentage'>
       {arrowIcon}
       <div className='font-semibold'>
         {formattedNumber}

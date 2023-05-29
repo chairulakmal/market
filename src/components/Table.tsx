@@ -14,7 +14,7 @@ const Table: React.FC = (): JSX.Element => {
     api
       .fetchCurrencies()
       .then((currenciesData: CurrencyData[]) => {
-        console.debug({ currenciesData })
+        // console.debug({ currenciesData })
         setCurrencies(currenciesData)
       })
       .catch((currenciesError) => {
@@ -57,14 +57,14 @@ const Table: React.FC = (): JSX.Element => {
   const priceMap = new Map<string, PriceData>()
 
   prices.forEach((price: PriceData) => {
-    const baseCurrency: string = price.pair.split('/')[0].toLowerCase()
+    const baseCurrency: string = price.pair.split('/')[0].toUpperCase()
     priceMap.set(baseCurrency, price)
   })
 
   const filteredCurrencies = currencies
     .map((currency: CurrencyData) => {
       const matchingPrice: PriceData | undefined = priceMap.get(
-        currency.currencyGroup.toLowerCase()
+        currency.currencyGroup
       )
       return {
         ...currency,
@@ -79,7 +79,10 @@ const Table: React.FC = (): JSX.Element => {
       }
     })
     .filter((currency: CurrencyData) => {
-      return currency.price.pair && currency.price.month && currency.price.day
+      return (
+        currency.price.latestPrice &&
+        (currency.price.month || currency.price.day)
+      )
     })
 
   const handleRowClick = (baseCurrency: string) => {
