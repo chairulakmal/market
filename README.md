@@ -1,6 +1,6 @@
 # TokenBazar
 
-This is a [Next.js](https://nextjs.org/) project template bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) using `TypeScript`, `Tailwind CSS`, `Cypress` and `ESLint`.
+This is a [Next.js (v13)](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) using `TypeScript (v5)`, `Tailwind CSS (v3)`, `Cypress (v12)` and `ESLint (v8)`.
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ You can start editing the app and the page will auto-update as you edit the file
 ## Features
 
 - ### Data Fetching and State Management with React Hooks
-  [SWR](https://swr.vercel.app/), the React hook library is used for data fetching. SWR provides components with a stream of data updates and integrates well with Next.js. React hook `useState` is also used throughout the app to manage state variables. Another React hook `useEffect` is also used to fetch `CurrencyData[]` the first time on mount and to update `PriceData[]` when new price data has been fetched using SWR with an interval of 1 second.
+  [SWR (v2)](https://swr.vercel.app/), the React hook library is used for data fetching. SWR provides components with a stream of data updates and integrates well with Next.js. React hook `useState` is also used throughout the app to manage state variables. Another React hook `useEffect` is also used to fetch `CurrencyData[]` the first time on mount and to update `PriceData[]` when new price data has been fetched using SWR with an interval of 1 second.
 - ### Data Cleansing
   To ensure users see only the latest information, we remove currencies with stale or unchanged prices in the past 24 hours or month.
 - ### Modular CSS
@@ -27,7 +27,7 @@ You can start editing the app and the page will auto-update as you edit the file
 - ### Linting
   ESLint and Prettier are set up to ensure code quality and consistency.
 - ### Testing
-  [Cypress](https://cypress.io/) is used for both end-to-end (e2e) and unit testing.
+  [Cypress](https://cypress.io/) is used for both end-to-end (e2e) and unit testing. Run `npm run test` to run the cypress tests.
 - ### Automatic Deployment
   The app is automatically deployed using [Vercel](https://vercel.com/), a popular hosting platform that provides seamless deployment workflows and scalability and works well with Next.js.
 
