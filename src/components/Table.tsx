@@ -4,6 +4,7 @@ import api from '@/api'
 import useSWR from 'swr'
 import { currencyFormatter } from '@/utils'
 import PercentageChange from '@/components/PercentageChange'
+import CoinIcon from './CoinIcon'
 
 const Table: React.FC = (): JSX.Element => {
   const [currencies, setCurrencies] = useState<CurrencyData[]>([])
@@ -112,7 +113,7 @@ const Table: React.FC = (): JSX.Element => {
               </th>
               <th className='px-2 sm:px-8 text-centre sm:whitespace-normal'>
                 Price
-                <small className='text-left md:hidden mt-4'>(in IDR)</small>
+                <small className='text-left md:hidden mt-4'> (in IDR)</small>
               </th>
               <th className='px-8 text-centre hidden sm:table-cell'>24h</th>
               <th className='px-8 text-centre hidden md:table-cell'>1w</th>
@@ -126,7 +127,13 @@ const Table: React.FC = (): JSX.Element => {
                 key={currency.currencyGroup}
                 className='hover:bg-gray-100 hover:dark:bg-gray-300 hover:dark:bg-opacity-30 cursor-pointer'
                 onClick={() => handleRowClick(currency.currencyGroup)}>
-                <td className='py-0 md:py-2'>{currency.name}</td>
+                <td className='py-0 md:py-2'>
+                  <CoinIcon
+                    name={currency.name}
+                    logo={currency.logo}
+                    color={currency.color}
+                  />
+                </td>
                 <td className='text-right hidden lg:table-cell'>
                   {currency.price.pair.toUpperCase()}
                 </td>

@@ -11,14 +11,20 @@ declare type CurrencyData = {
   currencyGroup: string
   name: string
   currencySymbol: string
-  logo: number
+  logo: string
   color: string
   decimal_point: number
   listingDate: Date
   price: PriceData
 }
 
-declare interface TableProps {
+interface IconProps {
+  logo: string
+  name: string
+  color: string
+}
+
+interface TableProps {
   currencies: CurrencyData[]
 }
 
