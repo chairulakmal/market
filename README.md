@@ -27,7 +27,7 @@ You can start editing the app and the page will auto-update as you edit the file
 - ### Linting
   ESLint and Prettier are set up to ensure code quality and consistency.
 - ### Testing
-  [Cypress](https://cypress.io/) is used for both end-to-end (e2e) and unit testing.
+  [Cypress](https://cypress.io/) is used for both end-to-end (e2e) and unit testing. Run `npm run test` to run the cypress tests.
 - ### Automatic Deployment
   The app is automatically deployed using [Vercel](https://vercel.com/), a popular hosting platform that provides seamless deployment workflows and scalability and works well with Next.js.
 
