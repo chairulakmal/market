@@ -14,7 +14,7 @@ const Table: React.FC = (): JSX.Element => {
     api
       .fetchCurrencies()
       .then((currenciesData: CurrencyData[]) => {
-        console.debug({ currenciesData })
+        // console.debug({ currenciesData })
         setCurrencies(currenciesData)
       })
       .catch((currenciesError) => {
@@ -64,7 +64,7 @@ const Table: React.FC = (): JSX.Element => {
   const filteredCurrencies = currencies
     .map((currency: CurrencyData) => {
       const matchingPrice: PriceData | undefined = priceMap.get(
-        currency.currencyGroup.toUpperCase()
+        currency.currencyGroup
       )
       return {
         ...currency,
@@ -79,13 +79,29 @@ const Table: React.FC = (): JSX.Element => {
       }
     })
     .filter((currency: CurrencyData) => {
-      return currency.price.pair && currency.price.month && currency.price.day
+      return (
+        currency.price.latestPrice &&
+        (currency.price.month || currency.price.day)
+      )
     })
+
+  const handleRowClick = (baseCurrency: string) => {
+    if (window) {
+      window.open(
+        `${api.baseURL}/en/market/${baseCurrency}`,
+        '_blank',
+        'noopener,noreferrer'
+      )
+    }
+  }
 
   return (
     <>
+      <small className='text-left hidden md:block lg:hidden mt-4'>
+        Prices shown is in Indonesian Rupiah (IDR)
+      </small>
       <div>
-        <table className='table-auto'>
+        <table className='table-auto w-full'>
           <thead>
             <tr>
               <th className='px-2 py-2 text-centre sm:whitespace-normal'>
@@ -96,17 +112,20 @@ const Table: React.FC = (): JSX.Element => {
               </th>
               <th className='px-2 sm:px-8 text-centre sm:whitespace-normal'>
                 Price
-                <small className='text-left sm:hidden mt-4'>(in IDR)</small>
+                <small className='text-left md:hidden mt-4'>(in IDR)</small>
               </th>
               <th className='px-8 text-centre hidden sm:table-cell'>24h</th>
               <th className='px-8 text-centre hidden md:table-cell'>1w</th>
-              <th className='px-8 text-centre hidden lg:table-cell'>1m</th>
-              <th className='px-8 text-centre hidden md:table-cell'>1y</th>
+              <th className='px-10 text-centre hidden lg:table-cell'>1m</th>
+              <th className='px-10 text-centre hidden md:table-cell'>1y</th>
             </tr>
           </thead>
           <tbody>
             {filteredCurrencies.map((currency: CurrencyData) => (
-              <tr key={currency.currencyGroup}>
+              <tr
+                key={currency.currencyGroup}
+                className='hover:bg-gray-100 hover:dark:bg-gray-300 hover:dark:bg-opacity-30 cursor-pointer'
+                onClick={() => handleRowClick(currency.currencyGroup)}>
                 <td className='py-0 md:py-2'>{currency.name}</td>
                 <td className='text-right hidden lg:table-cell'>
                   {currency.price.pair.toUpperCase()}
@@ -131,9 +150,6 @@ const Table: React.FC = (): JSX.Element => {
           </tbody>
         </table>
       </div>
-      <small className='text-left hidden md:block mt-4'>
-        Prices shown is in Indonesian Rupiah (IDR)
-      </small>
     </>
   )
 }

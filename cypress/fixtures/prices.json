@@ -1,0 +1,1006 @@
+{
+  "code": "success",
+  "message": "",
+  "payload": [
+    {
+      "pair": "op/idr",
+      "latestPrice": "24284",
+      "day": "0.59",
+      "week": "2.16",
+      "month": "-24.20",
+      "year": "0.00"
+    },
+    {
+      "pair": "usdt/idr",
+      "latestPrice": "14962",
+      "day": "0.00",
+      "week": "0.09",
+      "month": "1.56",
+      "year": "2.30"
+    },
+    {
+      "pair": "mdx/idr",
+      "latestPrice": "1043",
+      "day": "-0.29",
+      "week": "6.00",
+      "month": "-11.38",
+      "year": "-26.86"
+    },
+    {
+      "pair": "fet/idr",
+      "latestPrice": "3886",
+      "day": "-0.94",
+      "week": "8.85",
+      "month": "-23.46",
+      "year": "69.18"
+    },
+    {
+      "pair": "cvx/idr",
+      "latestPrice": "68984",
+      "day": "1.85",
+      "week": "2.11",
+      "month": "-12.30",
+      "year": "-49.62"
+    },
+    {
+      "pair": "neo/idr",
+      "latestPrice": "166404",
+      "day": "2.49",
+      "week": "21.36",
+      "month": "4.77",
+      "year": "8.41"
+    },
+    {
+      "pair": "busd/idr",
+      "latestPrice": "14954",
+      "day": "-0.01",
+      "week": "0.09",
+      "month": "1.60",
+      "year": "1.90"
+    },
+    {
+      "pair": "fxs/idr",
+      "latestPrice": "104026",
+      "day": "-0.57",
+      "week": "-1.59",
+      "month": "-15.14",
+      "year": "3.99"
+    },
+    {
+      "pair": "sushi/idr",
+      "latestPrice": "13006",
+      "day": "1.52",
+      "week": "-1.05",
+      "month": "-16.17",
+      "year": "-41.94"
+    },
+    {
+      "pair": "cake/idr",
+      "latestPrice": "26063",
+      "day": "11.38",
+      "week": "-3.04",
+      "month": "-33.30",
+      "year": "-59.09"
+    },
+    {
+      "pair": "doge/idr",
+      "latestPrice": "1094",
+      "day": "0.46",
+      "week": "2.24",
+      "month": "-7.60",
+      "year": "-8.76"
+    },
+    {
+      "pair": "chr/idr",
+      "latestPrice": "2216",
+      "day": "0.96",
+      "week": "9.38",
+      "month": "-4.61",
+      "year": "-26.65"
+    },
+    {
+      "pair": "bit/idr",
+      "latestPrice": "7651",
+      "day": "-0.93",
+      "week": "0.47",
+      "month": "3.81",
+      "year": "-27.51"
+    },
+    {
+      "pair": "usdc/idr",
+      "latestPrice": "14952",
+      "day": "0.00",
+      "week": "0.06",
+      "month": "1.58",
+      "year": "1.86"
+    },
+    {
+      "pair": "arpa/idr",
+      "latestPrice": "1139",
+      "day": "-6.79",
+      "week": "33.69",
+      "month": "90.15",
+      "year": "155.38"
+    },
+    {
+      "pair": "rvn/idr",
+      "latestPrice": "325",
+      "day": "1.88",
+      "week": "0.93",
+      "month": "-8.45",
+      "year": "-17.30"
+    },
+    {
+      "pair": "gmt/idr",
+      "latestPrice": "4009",
+      "day": "0.68",
+      "week": "0.40",
+      "month": "-17.08",
+      "year": "-73.69"
+    },
+    {
+      "pair": "qnt/idr",
+      "latestPrice": "1593114",
+      "day": "4.68",
+      "week": "3.95",
+      "month": "-4.39",
+      "year": "66.15"
+    },
+    {
+      "pair": "ftm/idr",
+      "latestPrice": "5104",
+      "day": "2.63",
+      "week": "-5.09",
+      "month": "-18.78",
+      "year": "-6.30"
+    },
+    {
+      "pair": "rune/idr",
+      "latestPrice": "17373",
+      "day": "1.31",
+      "week": "5.44",
+      "month": "-14.11",
+      "year": "-53.96"
+    },
+    {
+      "pair": "ren/idr",
+      "latestPrice": "1123",
+      "day": "-0.71",
+      "week": "0.72",
+      "month": "-20.13",
+      "year": "-43.57"
+    },
+    {
+      "pair": "zil/idr",
+      "latestPrice": "351",
+      "day": "0.00",
+      "week": "1.74",
+      "month": "-17.80",
+      "year": "-49.86"
+    },
+    {
+      "pair": "omg/idr",
+      "latestPrice": "11784",
+      "day": "2.67",
+      "week": "1.12",
+      "month": "-23.75",
+      "year": "-66.54"
+    },
+    {
+      "pair": "eth/idr",
+      "latestPrice": "28378271",
+      "day": "2.58",
+      "week": "5.34",
+      "month": "0.54",
+      "year": "8.00"
+    },
+    {
+      "pair": "srm/idr",
+      "latestPrice": "3500",
+      "day": "0.00",
+      "week": "0.00",
+      "month": "0.00",
+      "year": "0.00"
+    },
+    {
+      "pair": "wbtc/idr",
+      "latestPrice": "418302091",
+      "day": "2.61",
+      "week": "4.84",
+      "month": "-3.49",
+      "year": "-1.63"
+    },
+    {
+      "pair": "gmx/idr",
+      "latestPrice": "843506",
+      "day": "2.28",
+      "week": "-4.66",
+      "month": "-22.75",
+      "year": "200.96"
+    },
+    {
+      "pair": "chz/idr",
+      "latestPrice": "1525",
+      "day": "0.59",
+      "week": "-1.10",
+      "month": "-19.18",
+      "year": "-7.58"
+    },
+    {
+      "pair": "enj/idr",
+      "latestPrice": "5063",
+      "day": "-0.12",
+      "week": "0.48",
+      "month": "-13.72",
+      "year": "-42.44"
+    },
+    {
+      "pair": "hbar/idr",
+      "latestPrice": "788",
+      "day": "0.64",
+      "week": "1.29",
+      "month": "-12.35",
+      "year": "-39.57"
+    },
+    {
+      "pair": "xlm/idr",
+      "latestPrice": "1323",
+      "day": "0.00",
+      "week": "0.68",
+      "month": "-5.57",
+      "year": "-26.42"
+    },
+    {
+      "pair": "lpt/idr",
+      "latestPrice": "75162",
+      "day": "3.93",
+      "week": "5.10",
+      "month": "-9.90",
+      "year": "-58.18"
+    },
+    {
+      "pair": "ern/idr",
+      "latestPrice": "28826",
+      "day": "2.49",
+      "week": "6.89",
+      "month": "-14.34",
+      "year": "-4.46"
+    },
+    {
+      "pair": "pundix/idr",
+      "latestPrice": "5841",
+      "day": "1.04",
+      "week": "1.39",
+      "month": "-13.04",
+      "year": "-16.29"
+    },
+    {
+      "pair": "bal/idr",
+      "latestPrice": "79829",
+      "day": "1.22",
+      "week": "1.56",
+      "month": "-12.90",
+      "year": "-19.09"
+    },
+    {
+      "pair": "bat/idr",
+      "latestPrice": "3348",
+      "day": "1.06",
+      "week": "3.37",
+      "month": "-10.46",
+      "year": "-37.99"
+    },
+    {
+      "pair": "sand/idr",
+      "latestPrice": "8150",
+      "day": "3.15",
+      "week": "7.21",
+      "month": "-5.74",
+      "year": "-57.29"
+    },
+    {
+      "pair": "xtz/idr",
+      "latestPrice": "13918",
+      "day": "2.99",
+      "week": "4.38",
+      "month": "-7.93",
+      "year": "-51.83"
+    },
+    {
+      "pair": "nmr/idr",
+      "latestPrice": "226354",
+      "day": "-0.64",
+      "week": "9.79",
+      "month": "-7.17",
+      "year": "30.07"
+    },
+    {
+      "pair": "ach/idr",
+      "latestPrice": "427",
+      "day": "-2.06",
+      "week": "12.37",
+      "month": "-12.50",
+      "year": "64.23"
+    },
+    {
+      "pair": "1inch/idr",
+      "latestPrice": "5961",
+      "day": "-0.25",
+      "week": "1.36",
+      "month": "-16.97",
+      "year": "-55.61"
+    },
+    {
+      "pair": "luna/idr",
+      "latestPrice": "12987",
+      "day": "1.07",
+      "week": "-2.42",
+      "month": "-29.47",
+      "year": "0.00"
+    },
+    {
+      "pair": "yfi/idr",
+      "latestPrice": "99542527",
+      "day": "0.99",
+      "week": "1.39",
+      "month": "-17.92",
+      "year": "-11.13"
+    },
+    {
+      "pair": "theta/idr",
+      "latestPrice": "12961",
+      "day": "0.82",
+      "week": "1.97",
+      "month": "-12.73",
+      "year": "-21.55"
+    },
+    {
+      "pair": "ont/idr",
+      "latestPrice": "3488",
+      "day": "-0.37",
+      "week": "9.79",
+      "month": "-1.22",
+      "year": "-10.59"
+    },
+    {
+      "pair": "ksm/idr",
+      "latestPrice": "387253",
+      "day": "-0.26",
+      "week": "3.56",
+      "month": "-14.99",
+      "year": "-60.93"
+    },
+    {
+      "pair": "storj/idr",
+      "latestPrice": "4486",
+      "day": "0.67",
+      "week": "-0.36",
+      "month": "-15.01",
+      "year": "-41.57"
+    },
+    {
+      "pair": "kda/idr",
+      "latestPrice": "11452",
+      "day": "1.19",
+      "week": "-0.78",
+      "month": "-17.71",
+      "year": "-62.35"
+    },
+    {
+      "pair": "bch/idr",
+      "latestPrice": "1728356",
+      "day": "1.05",
+      "week": "1.31",
+      "month": "-0.24",
+      "year": "-34.03"
+    },
+    {
+      "pair": "lit/idr",
+      "latestPrice": "13320",
+      "day": "0.79",
+      "week": "9.02",
+      "month": "-10.31",
+      "year": "69.21"
+    },
+    {
+      "pair": "skl/idr",
+      "latestPrice": "489",
+      "day": "1.24",
+      "week": "1.88",
+      "month": "-16.55",
+      "year": "-46.96"
+    },
+    {
+      "pair": "arb/idr",
+      "latestPrice": "18458",
+      "day": "3.08",
+      "week": "10.85",
+      "month": "-12.24",
+      "year": "0.00"
+    },
+    {
+      "pair": "egld/idr",
+      "latestPrice": "544477",
+      "day": "0.32",
+      "week": "0.78",
+      "month": "-17.02",
+      "year": "-47.07"
+    },
+    {
+      "pair": "avax/idr",
+      "latestPrice": "219952",
+      "day": "-0.20",
+      "week": "2.81",
+      "month": "-15.64",
+      "year": "-39.41"
+    },
+    {
+      "pair": "xrp/idr",
+      "latestPrice": "7165",
+      "day": "1.33",
+      "week": "4.57",
+      "month": "2.04",
+      "year": "26.52"
+    },
+    {
+      "pair": "zec/idr",
+      "latestPrice": "700000",
+      "day": "0.00",
+      "week": "0.00",
+      "month": "0.00",
+      "year": "0.00"
+    },
+    {
+      "pair": "ada/idr",
+      "latestPrice": "5677",
+      "day": "1.63",
+      "week": "4.78",
+      "month": "-5.81",
+      "year": "-16.65"
+    },
+    {
+      "pair": "axs/idr",
+      "latestPrice": "106131",
+      "day": "1.00",
+      "week": "4.50",
+      "month": "-9.17",
+      "year": "-61.02"
+    },
+    {
+      "pair": "btc/idr",
+      "latestPrice": "417434789",
+      "day": "2.70",
+      "week": "4.64",
+      "month": "-3.82",
+      "year": "-1.92"
+    },
+    {
+      "pair": "dot/idr",
+      "latestPrice": "81706",
+      "day": "1.58",
+      "week": "3.46",
+      "month": "-6.57",
+      "year": "-42.25"
+    },
+    {
+      "pair": "fil/idr",
+      "latestPrice": "69501",
+      "day": "2.24",
+      "week": "6.55",
+      "month": "-12.23",
+      "year": "-37.04"
+    },
+    {
+      "pair": "ldo/idr",
+      "latestPrice": "31410",
+      "day": "4.97",
+      "week": "1.98",
+      "month": "-0.38",
+      "year": "108.41"
+    },
+    {
+      "pair": "auction/idr",
+      "latestPrice": "72205",
+      "day": "-0.62",
+      "week": "-0.64",
+      "month": "-11.15",
+      "year": "-23.29"
+    },
+    {
+      "pair": "woo/idr",
+      "latestPrice": "3366",
+      "day": "1.75",
+      "week": "2.59",
+      "month": "-21.59",
+      "year": "42.39"
+    },
+    {
+      "pair": "aave/idr",
+      "latestPrice": "1016373",
+      "day": "2.26",
+      "week": "6.85",
+      "month": "-3.67",
+      "year": "-27.41"
+    },
+    {
+      "pair": "near/idr",
+      "latestPrice": "24583",
+      "day": "0.37",
+      "week": "2.77",
+      "month": "-13.53",
+      "year": "-66.45"
+    },
+    {
+      "pair": "knc/idr",
+      "latestPrice": "9401",
+      "day": "1.13",
+      "week": "5.99",
+      "month": "-9.26",
+      "year": "-66.53"
+    },
+    {
+      "pair": "hive/idr",
+      "latestPrice": "5277",
+      "day": "0.69",
+      "week": "-0.15",
+      "month": "-12.28",
+      "year": "-24.40"
+    },
+    {
+      "pair": "bsw/idr",
+      "latestPrice": "1836",
+      "day": "0.00",
+      "week": "-2.65",
+      "month": "-25.49",
+      "year": "-77.90"
+    },
+    {
+      "pair": "rlc/idr",
+      "latestPrice": "23446",
+      "day": "-1.38",
+      "week": "-1.87",
+      "month": "-0.40",
+      "year": "99.66"
+    },
+    {
+      "pair": "mana/idr",
+      "latestPrice": "7179",
+      "day": "0.55",
+      "week": "1.11",
+      "month": "-11.91",
+      "year": "-48.76"
+    },
+    {
+      "pair": "ilv/idr",
+      "latestPrice": "731129",
+      "day": "1.52",
+      "week": "5.55",
+      "month": "-6.41",
+      "year": "-81.47"
+    },
+    {
+      "pair": "sol/idr",
+      "latestPrice": "308651",
+      "day": "0.93",
+      "week": "5.56",
+      "month": "-6.16",
+      "year": "-52.42"
+    },
+    {
+      "pair": "id/idr",
+      "latestPrice": "7462",
+      "day": "1.51",
+      "week": "7.99",
+      "month": "-30.89",
+      "year": "0.00"
+    },
+    {
+      "pair": "dydx/idr",
+      "latestPrice": "31194",
+      "day": "1.07",
+      "week": "1.54",
+      "month": "-19.69",
+      "year": "23.78"
+    },
+    {
+      "pair": "ocean/idr",
+      "latestPrice": "5219",
+      "day": "-1.88",
+      "week": "8.53",
+      "month": "-5.06",
+      "year": "73.62"
+    },
+    {
+      "pair": "uni/idr",
+      "latestPrice": "76583",
+      "day": "0.84",
+      "week": "0.64",
+      "month": "-6.05",
+      "year": "4.89"
+    },
+    {
+      "pair": "kava/idr",
+      "latestPrice": "16969",
+      "day": "1.10",
+      "week": "10.18",
+      "month": "42.18",
+      "year": "-51.24"
+    },
+    {
+      "pair": "iota/idr",
+      "latestPrice": "2997",
+      "day": "0.81",
+      "week": "13.52",
+      "month": "1.59",
+      "year": "-35.98"
+    },
+    {
+      "pair": "gala/idr",
+      "latestPrice": "455",
+      "day": "-0.22",
+      "week": "3.41",
+      "month": "-21.14",
+      "year": "-57.20"
+    },
+    {
+      "pair": "ens/idr",
+      "latestPrice": "158488",
+      "day": "0.77",
+      "week": "6.21",
+      "month": "-11.60",
+      "year": "6.09"
+    },
+    {
+      "pair": "grt/idr",
+      "latestPrice": "1848",
+      "day": "2.38",
+      "week": "4.58",
+      "month": "-9.50",
+      "year": "-8.24"
+    },
+    {
+      "pair": "apt/idr",
+      "latestPrice": "125342",
+      "day": "0.82",
+      "week": "3.98",
+      "month": "-15.94",
+      "year": "0.00"
+    },
+    {
+      "pair": "coti/idr",
+      "latestPrice": "1033",
+      "day": "1.18",
+      "week": "2.48",
+      "month": "-13.56",
+      "year": "-36.23"
+    },
+    {
+      "pair": "alpha/idr",
+      "latestPrice": "1732",
+      "day": "2.36",
+      "week": "15.54",
+      "month": "-0.97",
+      "year": "-16.13"
+    },
+    {
+      "pair": "waves/idr",
+      "latestPrice": "26587",
+      "day": "-0.95",
+      "week": "9.78",
+      "month": "-7.05",
+      "year": "-58.97"
+    },
+    {
+      "pair": "ant/idr",
+      "latestPrice": "52919",
+      "day": "0.87",
+      "week": "2.26",
+      "month": "8.74",
+      "year": "116.54"
+    },
+    {
+      "pair": "zrx/idr",
+      "latestPrice": "3364",
+      "day": "1.82",
+      "week": "3.25",
+      "month": "-13.30",
+      "year": "-39.53"
+    },
+    {
+      "pair": "pgala/idr",
+      "latestPrice": "10",
+      "day": "0.00",
+      "week": "0.00",
+      "month": "0.00",
+      "year": "0.00"
+    },
+    {
+      "pair": "ray/idr",
+      "latestPrice": "2972",
+      "day": "0.68",
+      "week": "-3.88",
+      "month": "-14.60",
+      "year": "-77.94"
+    },
+    {
+      "pair": "lunc/idr",
+      "latestPrice": "1",
+      "day": "0.00",
+      "week": "0.00",
+      "month": "0.00",
+      "year": "0.00"
+    },
+    {
+      "pair": "rose/idr",
+      "latestPrice": "787",
+      "day": "1.16",
+      "week": "2.88",
+      "month": "-14.08",
+      "year": "-13.80"
+    },
+    {
+      "pair": "ptu/idr",
+      "latestPrice": "5006",
+      "day": "0.22",
+      "week": "-0.28",
+      "month": "-5.14",
+      "year": "-47.47"
+    },
+    {
+      "pair": "jst/idr",
+      "latestPrice": "352",
+      "day": "0.57",
+      "week": "1.15",
+      "month": "-7.37",
+      "year": "-40.84"
+    },
+    {
+      "pair": "link/idr",
+      "latestPrice": "98444",
+      "day": "0.98",
+      "week": "2.26",
+      "month": "-6.46",
+      "year": "2.05"
+    },
+    {
+      "pair": "inj/idr",
+      "latestPrice": "104427",
+      "day": "6.88",
+      "week": "5.11",
+      "month": "-18.91",
+      "year": "257.04"
+    },
+    {
+      "pair": "alice/idr",
+      "latestPrice": "19677",
+      "day": "-0.90",
+      "week": "2.98",
+      "month": "-16.03",
+      "year": "-49.92"
+    },
+    {
+      "pair": "comp/idr",
+      "latestPrice": "541990",
+      "day": "2.77",
+      "week": "5.33",
+      "month": "-9.44",
+      "year": "-35.03"
+    },
+    {
+      "pair": "crv/idr",
+      "latestPrice": "12766",
+      "day": "-0.47",
+      "week": "1.88",
+      "month": "-7.83",
+      "year": "-28.57"
+    },
+    {
+      "pair": "mkr/idr",
+      "latestPrice": "9670133",
+      "day": "1.25",
+      "week": "4.28",
+      "month": "-6.26",
+      "year": "-45.62"
+    },
+    {
+      "pair": "paxg/idr",
+      "latestPrice": "29339404",
+      "day": "-0.30",
+      "week": "-1.03",
+      "month": "0.24",
+      "year": "7.88"
+    },
+    {
+      "pair": "vet/idr",
+      "latestPrice": "303",
+      "day": "-0.98",
+      "week": "6.69",
+      "month": "-8.73",
+      "year": "-30.34"
+    },
+    {
+      "pair": "bnb/idr",
+      "latestPrice": "4698940",
+      "day": "1.81",
+      "week": "2.80",
+      "month": "-2.07",
+      "year": "4.23"
+    },
+    {
+      "pair": "dash/idr",
+      "latestPrice": "645304",
+      "day": "1.15",
+      "week": "-0.63",
+      "month": "-12.63",
+      "year": "-22.10"
+    },
+    {
+      "pair": "ftt/idr",
+      "latestPrice": "24000",
+      "day": "0.00",
+      "week": "0.00",
+      "month": "0.00",
+      "year": "0.00"
+    },
+    {
+      "pair": "imx/idr",
+      "latestPrice": "11405",
+      "day": "3.11",
+      "week": "7.86",
+      "month": "-26.49",
+      "year": "-14.79"
+    },
+    {
+      "pair": "blur/idr",
+      "latestPrice": "7762",
+      "day": "0.22",
+      "week": "13.40",
+      "month": "-26.97",
+      "year": "0.00"
+    },
+    {
+      "pair": "audio/idr",
+      "latestPrice": "3661",
+      "day": "-0.38",
+      "week": "2.26",
+      "month": "-18.28",
+      "year": "-33.23"
+    },
+    {
+      "pair": "rpl/idr",
+      "latestPrice": "734437",
+      "day": "2.86",
+      "week": "0.25",
+      "month": "5.35",
+      "year": "0.00"
+    },
+    {
+      "pair": "algo/idr",
+      "latestPrice": "2264",
+      "day": "0.35",
+      "week": "-5.82",
+      "month": "-16.52",
+      "year": "-57.97"
+    },
+    {
+      "pair": "matic/idr",
+      "latestPrice": "13869",
+      "day": "-0.04",
+      "week": "9.09",
+      "month": "-6.71",
+      "year": "60.89"
+    },
+    {
+      "pair": "stx/idr",
+      "latestPrice": "9416",
+      "day": "2.93",
+      "week": "0.31",
+      "month": "-12.72",
+      "year": "23.99"
+    },
+    {
+      "pair": "atom/idr",
+      "latestPrice": "161648",
+      "day": "1.63",
+      "week": "3.82",
+      "month": "-4.50",
+      "year": "17.05"
+    },
+    {
+      "pair": "ata/idr",
+      "latestPrice": "1855",
+      "day": "-0.75",
+      "week": "-1.43",
+      "month": "-20.59",
+      "year": "-14.83"
+    },
+    {
+      "pair": "lrc/idr",
+      "latestPrice": "4403",
+      "day": "0.73",
+      "week": "1.87",
+      "month": "-15.60",
+      "year": "-37.82"
+    },
+    {
+      "pair": "trx/idr",
+      "latestPrice": "1162",
+      "day": "0.35",
+      "week": "4.22",
+      "month": "19.55",
+      "year": "-2.35"
+    },
+    {
+      "pair": "rsr/idr",
+      "latestPrice": "45",
+      "day": "2.27",
+      "week": "2.27",
+      "month": "-21.05",
+      "year": "-41.56"
+    },
+    {
+      "pair": "perp/idr",
+      "latestPrice": "8852",
+      "day": "-0.15",
+      "week": "1.96",
+      "month": "-16.36",
+      "year": "-49.68"
+    },
+    {
+      "pair": "looks/idr",
+      "latestPrice": "1307",
+      "day": "-0.83",
+      "week": "-3.11",
+      "month": "-35.52",
+      "year": "-82.72"
+    },
+    {
+      "pair": "ankr/idr",
+      "latestPrice": "391",
+      "day": "2.09",
+      "week": "3.99",
+      "month": "-15.91",
+      "year": "-25.95"
+    },
+    {
+      "pair": "flow/idr",
+      "latestPrice": "11390",
+      "day": "0.92",
+      "week": "2.64",
+      "month": "-14.01",
+      "year": "-67.63"
+    },
+    {
+      "pair": "ltc/idr",
+      "latestPrice": "1357030",
+      "day": "0.97",
+      "week": "-0.20",
+      "month": "3.06",
+      "year": "46.92"
+    },
+    {
+      "pair": "snx/idr",
+      "latestPrice": "36482",
+      "day": "-0.75",
+      "week": "3.89",
+      "month": "0.81",
+      "year": "0.22"
+    },
+    {
+      "pair": "fis/idr",
+      "latestPrice": "5222",
+      "day": "0.15",
+      "week": "2.86",
+      "month": "-23.37",
+      "year": "11.49"
+    },
+    {
+      "pair": "ape/idr",
+      "latestPrice": "48769",
+      "day": "0.34",
+      "week": "-5.21",
+      "month": "-18.56",
+      "year": "-46.62"
+    }
+  ]
+}

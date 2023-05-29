@@ -3,7 +3,7 @@ const Navbar = () => {
     <div className='mb-8 grid text-center lg:mb-0 md:grid-cols-2 md:text-left'>
       <a
         href='https://github.com/chairulakmal/market'
-        className='group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30'
+        className='group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-gray-300 hover:dark:bg-opacity-30'
         target='_blank'
         rel='noopener noreferrer'>
         <h2 className={`mb-3 text-2xl font-semibold`}>
@@ -19,7 +19,7 @@ const Navbar = () => {
 
       <a
         href='https://pintu.co.id/academy'
-        className='group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30'
+        className='group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-gray-300 hover:dark:bg-opacity-30'
         target='_blank'
         rel='noopener noreferrer'>
         <h2 className={`mb-3 text-2xl font-semibold`}>

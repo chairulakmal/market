@@ -7,5 +7,5 @@ export const currencyFormatter = (n: number) => {
 }
 
 export const percentageFormatter = (n: number) => {
-  return n ? Math.abs(n).toFixed(2) : '0.00'
+  return n ? Math.abs(n).toFixed(2) : '-'
 }

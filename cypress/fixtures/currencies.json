@@ -1,0 +1,3009 @@
+{
+  "code": "success",
+  "message": "",
+  "payload": [
+    {
+      "currencyGroup": "IDR",
+      "color": "#0A68F4",
+      "currencySymbol": "Rp",
+      "name": "Rupiah Token",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_IDRT.svg",
+      "decimal_point": 0,
+      "listingDate": "2020-09-15T09:43:42Z",
+      "wallets": [
+        {
+          "currencyGroup": "IDR",
+          "tokenSymbol": "IDRT",
+          "decimal_point": 2,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2020-09-15T09:43:43Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        },
+        {
+          "currencyGroup": "IDR",
+          "tokenSymbol": "IDRTB",
+          "decimal_point": 8,
+          "tokenType": "BEP-2",
+          "blockchain": "Binance",
+          "explorer": "https://explorer.binance.org/tx/",
+          "listingDate": "2020-09-15T09:43:44Z",
+          "blockchainName": "BNB Beacon Chain",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/BEP-2.svg"
+        },
+        {
+          "currencyGroup": "IDR",
+          "tokenSymbol": "IDRTBSC",
+          "decimal_point": 2,
+          "tokenType": "BEP-20",
+          "blockchain": "Binance Smartchain",
+          "explorer": "https://bscscan.com/tx/",
+          "listingDate": "2022-04-11T09:02:03Z",
+          "blockchainName": "BNB Smart Chain",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/BEP-20+(BSC).svg"
+        },
+        {
+          "currencyGroup": "IDR",
+          "tokenSymbol": "IDRTPOLYGON",
+          "decimal_point": 6,
+          "tokenType": "Polygon",
+          "blockchain": "Polygon",
+          "explorer": "https://polygonscan.com/tx/",
+          "listingDate": "2023-01-24T00:00:00Z",
+          "blockchainName": "Polygon",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/MATIC.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "BTC",
+      "color": "#F78B1A",
+      "currencySymbol": "BTC",
+      "name": "Bitcoin",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_BTC.svg",
+      "decimal_point": 8,
+      "listingDate": "2020-09-15T09:43:45Z",
+      "wallets": [
+        {
+          "currencyGroup": "BTC",
+          "tokenSymbol": "BTC",
+          "decimal_point": 8,
+          "tokenType": "Bitcoin",
+          "blockchain": "Bitcoin",
+          "explorer": "https://explorer.bitcoin.com/btc/tx/",
+          "listingDate": "2020-09-15T09:43:45Z",
+          "blockchainName": "Bitcoin",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Bitcoin.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ETH",
+      "color": "#9011FE",
+      "currencySymbol": "ETH",
+      "name": "Ethereum",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ETH.svg",
+      "decimal_point": 18,
+      "listingDate": "2020-09-15T09:43:46Z",
+      "wallets": [
+        {
+          "currencyGroup": "ETH",
+          "tokenSymbol": "ETH",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2020-09-15T09:43:46Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "USDT",
+      "color": "#15A57C",
+      "currencySymbol": "USDT",
+      "name": "Tether",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_USDT.svg",
+      "decimal_point": 6,
+      "listingDate": "2020-09-15T09:43:47Z",
+      "wallets": [
+        {
+          "currencyGroup": "USDT",
+          "tokenSymbol": "USDT",
+          "decimal_point": 6,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2020-09-15T09:43:47Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        },
+        {
+          "currencyGroup": "USDT",
+          "tokenSymbol": "USDTSOLANA",
+          "decimal_point": 6,
+          "tokenType": "Solana",
+          "blockchain": "Solana",
+          "explorer": "https://explorer.solana.com/tx/",
+          "listingDate": "2022-05-20T03:22:58Z",
+          "blockchainName": "Solana",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/SOL.svg"
+        },
+        {
+          "currencyGroup": "USDT",
+          "tokenSymbol": "USDTPOLYGON",
+          "decimal_point": 6,
+          "tokenType": "Polygon",
+          "blockchain": "Polygon",
+          "explorer": "https://polygonscan.com/tx/",
+          "listingDate": "2022-06-02T07:00:01Z",
+          "blockchainName": "Polygon",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/MATIC.svg"
+        },
+        {
+          "currencyGroup": "USDT",
+          "tokenSymbol": "USDTBSC",
+          "decimal_point": 18,
+          "tokenType": "BEP-20",
+          "blockchain": "Binance Smartchain",
+          "explorer": "https://bscscan.com/tx/",
+          "listingDate": "2022-06-02T07:00:03Z",
+          "blockchainName": "BNB Smart Chain",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/BEP-20+(BSC).svg"
+        },
+        {
+          "currencyGroup": "USDT",
+          "tokenSymbol": "USDTAVAX",
+          "decimal_point": 6,
+          "tokenType": "AVAX - C Chain",
+          "blockchain": "Avalanche C-Chain",
+          "explorer": "https://snowtrace.io/tx/",
+          "listingDate": "2022-06-02T07:00:05Z",
+          "blockchainName": "AVAX - C Chain",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/AVAX.svg"
+        },
+        {
+          "currencyGroup": "USDT",
+          "tokenSymbol": "USDTTRON",
+          "decimal_point": 6,
+          "tokenType": "TRON",
+          "blockchain": "TRON",
+          "explorer": "https://tronscan.org/#/transaction/",
+          "listingDate": "2023-03-27T07:00:00Z",
+          "blockchainName": "Tron",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/TRC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "BNB",
+      "color": "#FEBF11",
+      "currencySymbol": "BNB",
+      "name": "Binance Coin",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_BNB.svg",
+      "decimal_point": 8,
+      "listingDate": "2020-09-15T09:43:48Z",
+      "wallets": [
+        {
+          "currencyGroup": "BNB",
+          "tokenSymbol": "BNB",
+          "decimal_point": 8,
+          "tokenType": "BEP-2",
+          "blockchain": "Binance",
+          "explorer": "https://explorer.binance.org/tx/",
+          "listingDate": "2020-09-15T09:43:48Z",
+          "blockchainName": "BNB Beacon Chain",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/BEP-2.svg"
+        },
+        {
+          "currencyGroup": "BNB",
+          "tokenSymbol": "BNBBSC",
+          "decimal_point": 18,
+          "tokenType": "BEP-20",
+          "blockchain": "Binance Smartchain",
+          "explorer": "https://bscscan.com/tx/",
+          "listingDate": "2022-03-09T04:53:46Z",
+          "blockchainName": "BNB Smart Chain",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/BEP-20+(BSC).svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "COMP",
+      "color": "#00D395",
+      "currencySymbol": "COMP",
+      "name": "Compound",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_COMP.svg",
+      "decimal_point": 18,
+      "listingDate": "2020-09-24T15:17:38Z",
+      "wallets": [
+        {
+          "currencyGroup": "COMP",
+          "tokenSymbol": "COMP",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2020-09-24T15:17:38Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "LINK",
+      "color": "#5664F5",
+      "currencySymbol": "LINK",
+      "name": "Chainlink",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_LINK.svg",
+      "decimal_point": 18,
+      "listingDate": "2020-09-24T15:17:39Z",
+      "wallets": [
+        {
+          "currencyGroup": "LINK",
+          "tokenSymbol": "LINK",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2020-09-24T15:17:39Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "SNX",
+      "color": "#0CD0FE",
+      "currencySymbol": "SNX",
+      "name": "Synthetix",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_SNX.svg",
+      "decimal_point": 18,
+      "listingDate": "2020-09-24T15:17:40Z",
+      "wallets": [
+        {
+          "currencyGroup": "SNX",
+          "tokenSymbol": "SNX",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2020-09-24T15:17:40Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "YFI",
+      "color": "#006AE3",
+      "currencySymbol": "YFI",
+      "name": "Yearn.finance",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_YFI.svg",
+      "decimal_point": 18,
+      "listingDate": "2020-10-14T17:16:24Z",
+      "wallets": [
+        {
+          "currencyGroup": "YFI",
+          "tokenSymbol": "YFI",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2020-10-14T17:16:24Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "UNI",
+      "color": "#FF007A",
+      "currencySymbol": "UNI",
+      "name": "Uniswap",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_UNI.svg",
+      "decimal_point": 18,
+      "listingDate": "2020-10-14T17:16:55Z",
+      "wallets": [
+        {
+          "currencyGroup": "UNI",
+          "tokenSymbol": "UNI",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2020-10-14T17:16:55Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "MKR",
+      "color": "#52AC9F",
+      "currencySymbol": "MKR",
+      "name": "Maker",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_MKR.svg",
+      "decimal_point": 18,
+      "listingDate": "2020-10-14T23:57:22Z",
+      "wallets": [
+        {
+          "currencyGroup": "MKR",
+          "tokenSymbol": "MKR",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2020-10-14T23:57:22Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "AAVE",
+      "color": "#B6509E",
+      "currencySymbol": "AAVE",
+      "name": "AAVE",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_AAVE.svg",
+      "decimal_point": 18,
+      "listingDate": "2021-04-01T13:53:13Z",
+      "wallets": [
+        {
+          "currencyGroup": "AAVE",
+          "tokenSymbol": "AAVE",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2021-04-01T13:53:13Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "SUSHI",
+      "color": "#FF399D",
+      "currencySymbol": "SUSHI",
+      "name": "SushiSwap",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_SUSHI.svg",
+      "decimal_point": 18,
+      "listingDate": "2021-04-08T12:27:51Z",
+      "wallets": [
+        {
+          "currencyGroup": "SUSHI",
+          "tokenSymbol": "SUSHI",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2021-04-08T12:27:51Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "GRT",
+      "color": "#713EF6",
+      "currencySymbol": "GRT",
+      "name": "The Graph",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_GRT.svg",
+      "decimal_point": 18,
+      "listingDate": "2021-04-08T12:27:52Z",
+      "wallets": [
+        {
+          "currencyGroup": "GRT",
+          "tokenSymbol": "GRT",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2021-04-08T12:27:52Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "REN",
+      "color": "#026FE8",
+      "currencySymbol": "REN",
+      "name": "REN",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_REN.svg",
+      "decimal_point": 18,
+      "listingDate": "2021-04-16T07:00:13Z",
+      "wallets": [
+        {
+          "currencyGroup": "REN",
+          "tokenSymbol": "REN",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2021-04-16T07:00:13Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "BAL",
+      "color": "#526DFE",
+      "currencySymbol": "BAL",
+      "name": "Balancer",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_BAL.svg",
+      "decimal_point": 18,
+      "listingDate": "2021-04-16T07:00:14Z",
+      "wallets": [
+        {
+          "currencyGroup": "BAL",
+          "tokenSymbol": "BAL",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2021-04-16T07:00:14Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "CRV",
+      "color": "#3465A4",
+      "currencySymbol": "CRV",
+      "name": "Curve Finance",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_CRV.svg",
+      "decimal_point": 18,
+      "listingDate": "2021-05-06T12:32:13Z",
+      "wallets": [
+        {
+          "currencyGroup": "CRV",
+          "tokenSymbol": "CRV",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2021-05-06T12:32:13Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "MATIC",
+      "color": "#8247E5",
+      "currencySymbol": "MATIC",
+      "name": "Polygon",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_MATIC.svg",
+      "decimal_point": 18,
+      "listingDate": "2021-05-06T12:33:00Z",
+      "wallets": [
+        {
+          "currencyGroup": "MATIC",
+          "tokenSymbol": "MATIC",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2021-05-06T12:33:00Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        },
+        {
+          "currencyGroup": "MATIC",
+          "tokenSymbol": "MATICPOLYGON",
+          "decimal_point": 18,
+          "tokenType": "Polygon",
+          "blockchain": "Polygon",
+          "explorer": "https://polygonscan.com/tx/",
+          "listingDate": "2022-04-04T06:41:57Z",
+          "blockchainName": "Polygon",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/MATIC.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "OCEAN",
+      "color": "#FF4092",
+      "currencySymbol": "OCEAN",
+      "name": "Ocean",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_OCEAN.svg",
+      "decimal_point": 18,
+      "listingDate": "2021-08-26T05:14:20Z",
+      "wallets": [
+        {
+          "currencyGroup": "OCEAN",
+          "tokenSymbol": "OCEAN",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2021-08-26T05:14:20Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "1INCH",
+      "color": "#3B76BA",
+      "currencySymbol": "1INCH",
+      "name": "1inch",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_1INCH.svg",
+      "decimal_point": 18,
+      "listingDate": "2021-08-26T05:15:18Z",
+      "wallets": [
+        {
+          "currencyGroup": "1INCH",
+          "tokenSymbol": "1INCH",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2021-08-26T05:15:18Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "AXS",
+      "color": "#0058E5",
+      "currencySymbol": "AXS",
+      "name": "Axie Infinity",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_AXS.svg",
+      "decimal_point": 18,
+      "listingDate": "2021-09-02T10:02:16Z",
+      "wallets": [
+        {
+          "currencyGroup": "AXS",
+          "tokenSymbol": "AXS",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2021-09-02T10:02:16Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "SAND",
+      "color": "#0084FF",
+      "currencySymbol": "SAND",
+      "name": "The Sandbox",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_SAND.svg",
+      "decimal_point": 18,
+      "listingDate": "2021-09-02T10:02:39Z",
+      "wallets": [
+        {
+          "currencyGroup": "SAND",
+          "tokenSymbol": "SAND",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2021-09-02T10:02:39Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "USDC",
+      "color": "#2775CA",
+      "currencySymbol": "USDC",
+      "name": "USD Coin",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_USDC.svg",
+      "decimal_point": 6,
+      "listingDate": "2021-09-09T10:57:07Z",
+      "wallets": [
+        {
+          "currencyGroup": "USDC",
+          "tokenSymbol": "USDC",
+          "decimal_point": 6,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2021-09-09T10:57:07Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        },
+        {
+          "currencyGroup": "USDC",
+          "tokenSymbol": "USDCSOLANA",
+          "decimal_point": 6,
+          "tokenType": "Solana",
+          "blockchain": "Solana",
+          "explorer": "https://explorer.solana.com/tx/",
+          "listingDate": "2022-05-20T03:22:57Z",
+          "blockchainName": "Solana",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/SOL.svg"
+        },
+        {
+          "currencyGroup": "USDC",
+          "tokenSymbol": "USDCPOLYGON",
+          "decimal_point": 6,
+          "tokenType": "Polygon",
+          "blockchain": "Polygon",
+          "explorer": "https://polygonscan.com/tx/",
+          "listingDate": "2022-06-02T07:00:00Z",
+          "blockchainName": "Polygon",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/MATIC.svg"
+        },
+        {
+          "currencyGroup": "USDC",
+          "tokenSymbol": "USDCBSC",
+          "decimal_point": 18,
+          "tokenType": "BEP-20",
+          "blockchain": "Binance Smartchain",
+          "explorer": "https://bscscan.com/tx/",
+          "listingDate": "2022-06-02T07:00:02Z",
+          "blockchainName": "BNB Smart Chain",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/BEP-20+(BSC).svg"
+        },
+        {
+          "currencyGroup": "USDC",
+          "tokenSymbol": "USDCAVAX",
+          "decimal_point": 6,
+          "tokenType": "AVAX - C Chain",
+          "blockchain": "Avalanche C-Chain",
+          "explorer": "https://snowtrace.io/tx/",
+          "listingDate": "2022-06-02T07:00:04Z",
+          "blockchainName": "AVAX - C Chain",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/AVAX.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "WBTC",
+      "color": "#F78B1A",
+      "currencySymbol": "WBTC",
+      "name": "Wrapped Bitcoin",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_WBTC.svg",
+      "decimal_point": 8,
+      "listingDate": "2021-09-09T10:57:37Z",
+      "wallets": [
+        {
+          "currencyGroup": "WBTC",
+          "tokenSymbol": "WBTC",
+          "decimal_point": 8,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2021-09-09T10:57:37Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "PERP",
+      "color": "#3CEAAA",
+      "currencySymbol": "PERP",
+      "name": "Perpetual Protocol",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_PERP.svg",
+      "decimal_point": 18,
+      "listingDate": "2021-09-20T08:59:21Z",
+      "wallets": [
+        {
+          "currencyGroup": "PERP",
+          "tokenSymbol": "PERP",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2021-09-20T08:59:21Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "FTT",
+      "color": "#23D4E8",
+      "currencySymbol": "FTT",
+      "name": "FTX Token",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_FTT.svg",
+      "decimal_point": 18,
+      "listingDate": "2021-09-20T08:59:46Z",
+      "wallets": [
+        {
+          "currencyGroup": "FTT",
+          "tokenSymbol": "FTT",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2021-09-20T08:59:46Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "DOGE",
+      "color": "#BA9F33",
+      "currencySymbol": "DOGE",
+      "name": "Dogecoin",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_DOGE.svg",
+      "decimal_point": 8,
+      "listingDate": "2021-09-30T19:09:29Z",
+      "wallets": [
+        {
+          "currencyGroup": "DOGE",
+          "tokenSymbol": "DOGE",
+          "decimal_point": 8,
+          "tokenType": "Dogecoin",
+          "blockchain": "Dogecoin",
+          "explorer": "https://dogechain.info/tx/",
+          "listingDate": "2021-09-30T19:09:29Z",
+          "blockchainName": "Dogecoin",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Dogecoin.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "DOT",
+      "color": "#E6007A",
+      "currencySymbol": "DOT",
+      "name": "Polkadot",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_DOT.svg",
+      "decimal_point": 10,
+      "listingDate": "2021-09-30T19:09:30Z",
+      "wallets": [
+        {
+          "currencyGroup": "DOT",
+          "tokenSymbol": "DOT",
+          "decimal_point": 10,
+          "tokenType": "Polkadot",
+          "blockchain": "Polkadot",
+          "explorer": "https://polkascan.io/polkadot/transaction/",
+          "listingDate": "2021-09-30T19:09:30Z",
+          "blockchainName": "Polkadot",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/DOT.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ADA",
+      "color": "#0E62E2",
+      "currencySymbol": "ADA",
+      "name": "Cardano",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ADA.svg",
+      "decimal_point": 6,
+      "listingDate": "2021-10-04T19:49:30Z",
+      "wallets": [
+        {
+          "currencyGroup": "ADA",
+          "tokenSymbol": "ADA",
+          "decimal_point": 6,
+          "tokenType": "Cardano",
+          "blockchain": "Cardano",
+          "explorer": "https://explorer.cardano.org/en/transaction?id=",
+          "listingDate": "2021-10-04T19:49:30Z",
+          "blockchainName": "Cardano",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ADA.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "XRP",
+      "color": "#1376A8",
+      "currencySymbol": "XRP",
+      "name": "Ripple",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_XRP.svg",
+      "decimal_point": 6,
+      "listingDate": "2021-10-04T19:49:31Z",
+      "wallets": [
+        {
+          "currencyGroup": "XRP",
+          "tokenSymbol": "XRP",
+          "decimal_point": 6,
+          "tokenType": "Ripple",
+          "blockchain": "Ripple",
+          "explorer": "https://xrpscan.com/tx/",
+          "listingDate": "2021-10-04T19:49:31Z",
+          "blockchainName": "Ripple",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/XRP.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "SOL",
+      "color": "#17DE8B",
+      "currencySymbol": "SOL",
+      "name": "Solana",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_SOL.svg",
+      "decimal_point": 9,
+      "listingDate": "2021-10-15T19:10:39Z",
+      "wallets": [
+        {
+          "currencyGroup": "SOL",
+          "tokenSymbol": "SOL",
+          "decimal_point": 9,
+          "tokenType": "Solana",
+          "blockchain": "Solana",
+          "explorer": "https://explorer.solana.com/tx/",
+          "listingDate": "2021-10-15T19:10:39Z",
+          "blockchainName": "Solana",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/SOL.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "XTZ",
+      "color": "#2C7DF7",
+      "currencySymbol": "XTZ",
+      "name": "Tezos",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_XTZ.svg",
+      "decimal_point": 6,
+      "listingDate": "2021-10-15T19:11:00Z",
+      "wallets": [
+        {
+          "currencyGroup": "XTZ",
+          "tokenSymbol": "XTZ",
+          "decimal_point": 6,
+          "tokenType": "Tezos",
+          "blockchain": "Tezos",
+          "explorer": "https://tezblock.io/transaction/",
+          "listingDate": "2021-10-15T19:11:00Z",
+          "blockchainName": "Tezos",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/XTZ.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ALICE",
+      "color": "#EA8397",
+      "currencySymbol": "ALICE",
+      "name": "MyNeighborAlice",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ALICE.svg",
+      "decimal_point": 6,
+      "listingDate": "2021-10-15T19:11:40Z",
+      "wallets": [
+        {
+          "currencyGroup": "ALICE",
+          "tokenSymbol": "ALICE",
+          "decimal_point": 6,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2021-10-15T19:11:40Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "PTU",
+      "color": "#0A50E2",
+      "currencySymbol": "PTU",
+      "name": "Pintu Token",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_PTU.svg",
+      "decimal_point": 18,
+      "listingDate": "2021-11-25T19:31:51Z",
+      "wallets": [
+        {
+          "currencyGroup": "PTU",
+          "tokenSymbol": "PTU",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2021-11-25T19:31:51Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "BIT",
+      "color": "#E83F72",
+      "currencySymbol": "BIT",
+      "name": "BitDAO",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_BIT.svg",
+      "decimal_point": 18,
+      "listingDate": "2021-12-09T19:29:30Z",
+      "wallets": [
+        {
+          "currencyGroup": "BIT",
+          "tokenSymbol": "BIT",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2021-12-09T19:29:30Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "LUNC",
+      "color": "#F1BF09",
+      "currencySymbol": "LUNC",
+      "name": "Terra Classic",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_LUNC.svg",
+      "decimal_point": 6,
+      "listingDate": "2021-12-09T19:29:31Z",
+      "wallets": [
+        {
+          "currencyGroup": "LUNC",
+          "tokenSymbol": "LUNC",
+          "decimal_point": 6,
+          "tokenType": "Terra",
+          "blockchain": "Terra",
+          "explorer": "https://finder.terra.money/classic/tx/",
+          "listingDate": "2021-12-09T19:29:31Z",
+          "blockchainName": "Terra",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/TERRA.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "MANA",
+      "color": "#FF2D55",
+      "currencySymbol": "MANA",
+      "name": "Decentraland",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_MANA.svg",
+      "decimal_point": 18,
+      "listingDate": "2021-12-09T20:45:40Z",
+      "wallets": [
+        {
+          "currencyGroup": "MANA",
+          "tokenSymbol": "MANA",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2021-12-09T20:45:40Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "FTM",
+      "color": "#13B5EC",
+      "currencySymbol": "FTM",
+      "name": "Fantom",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_FTM.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-01-13T18:15:10Z",
+      "wallets": [
+        {
+          "currencyGroup": "FTM",
+          "tokenSymbol": "FTM",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-01-13T18:15:10Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        },
+        {
+          "currencyGroup": "FTM",
+          "tokenSymbol": "FTMFANTOM",
+          "decimal_point": 18,
+          "tokenType": "Fantom",
+          "blockchain": "Fantom",
+          "explorer": "https://ftmscan.com/tx/",
+          "listingDate": "2022-07-04T07:00:00Z",
+          "blockchainName": "Fantom",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/FTM.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ATOM",
+      "color": "#BF76ED",
+      "currencySymbol": "ATOM",
+      "name": "Cosmos",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ATOM.svg",
+      "decimal_point": 6,
+      "listingDate": "2022-01-13T18:15:12Z",
+      "wallets": [
+        {
+          "currencyGroup": "ATOM",
+          "tokenSymbol": "ATOM",
+          "decimal_point": 6,
+          "tokenType": "Cosmos",
+          "blockchain": "Cosmos",
+          "explorer": "https://atomscan.com/transactions/",
+          "listingDate": "2022-01-13T18:15:12Z",
+          "blockchainName": "Atom",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Cosmos.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "AVAX",
+      "color": "#E84142",
+      "currencySymbol": "AVAX",
+      "name": "Avalanche",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_AVAX.svg",
+      "decimal_point": 9,
+      "listingDate": "2022-01-13T18:15:14Z",
+      "wallets": [
+        {
+          "currencyGroup": "AVAX",
+          "tokenSymbol": "AVAX",
+          "decimal_point": 9,
+          "tokenType": "AVAX - C Chain",
+          "blockchain": "Avalanche C-Chain",
+          "explorer": "https://snowtrace.io/tx/",
+          "listingDate": "2022-01-13T18:15:14Z",
+          "blockchainName": "AVAX - C Chain",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/AVAX.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "CAKE",
+      "color": "#00CAD9",
+      "currencySymbol": "CAKE",
+      "name": "PancakeSwap",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_CAKE.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-01-13T18:15:18Z",
+      "wallets": [
+        {
+          "currencyGroup": "CAKE",
+          "tokenSymbol": "CAKE",
+          "decimal_point": 18,
+          "tokenType": "BEP-20",
+          "blockchain": "Binance Smartchain",
+          "explorer": "https://bscscan.com/tx/",
+          "listingDate": "2022-01-13T18:15:18Z",
+          "blockchainName": "BNB Smart Chain",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/BEP-20+(BSC).svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ALPHA",
+      "color": "#1F66E6",
+      "currencySymbol": "ALPHA",
+      "name": "Alpha Finance",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ALPHA.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-01-13T18:15:20Z",
+      "wallets": [
+        {
+          "currencyGroup": "ALPHA",
+          "tokenSymbol": "ALPHA",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-01-13T18:15:20Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "QNT",
+      "color": "#EF4F20",
+      "currencySymbol": "QNT",
+      "name": "Quant",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_QNT.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-01-13T18:17:09Z",
+      "wallets": [
+        {
+          "currencyGroup": "QNT",
+          "tokenSymbol": "QNT",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-01-13T18:17:09Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "NEAR",
+      "color": "#5F8AFA",
+      "currencySymbol": "NEAR",
+      "name": "Near",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_NEAR.svg",
+      "decimal_point": 8,
+      "listingDate": "2022-03-25T15:22:01Z",
+      "wallets": [
+        {
+          "currencyGroup": "NEAR",
+          "tokenSymbol": "NEAR",
+          "decimal_point": 8,
+          "tokenType": "NEAR",
+          "blockchain": "NEAR",
+          "explorer": "https://explorer.near.org/transactions/",
+          "listingDate": "2022-03-25T15:22:01Z",
+          "blockchainName": "NEAR Protocol",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Near.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "GALA",
+      "color": "#268AEF",
+      "currencySymbol": "GALA",
+      "name": "Gala",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_GALA.svg",
+      "decimal_point": 8,
+      "listingDate": "2022-03-25T15:22:02Z",
+      "wallets": [
+        {
+          "currencyGroup": "GALA",
+          "tokenSymbol": "GALA",
+          "decimal_point": 8,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-03-25T15:22:02Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        },
+        {
+          "currencyGroup": "GALA",
+          "tokenSymbol": "GALABSC",
+          "decimal_point": 18,
+          "tokenType": "BEP-20",
+          "blockchain": "Binance Smartchain",
+          "explorer": "https://bscscan.com/tx/",
+          "listingDate": "2022-03-25T15:22:03Z",
+          "blockchainName": "BNB Smart Chain",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/BEP-20+(BSC).svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "TRX",
+      "color": "#FF5254",
+      "currencySymbol": "TRX",
+      "name": "Tron",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_TRON.svg",
+      "decimal_point": 6,
+      "listingDate": "2022-03-25T15:22:04Z",
+      "wallets": [
+        {
+          "currencyGroup": "TRX",
+          "tokenSymbol": "TRX",
+          "decimal_point": 6,
+          "tokenType": "TRON",
+          "blockchain": "TRON",
+          "explorer": "https://tronscan.org/#/transaction/",
+          "listingDate": "2022-03-25T15:22:04Z",
+          "blockchainName": "Tron",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/TRC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "XLM",
+      "color": "#6649E9",
+      "currencySymbol": "XLM",
+      "name": "Stellar",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_XLM.svg",
+      "decimal_point": 8,
+      "listingDate": "2022-03-25T15:24:05Z",
+      "wallets": [
+        {
+          "currencyGroup": "XLM",
+          "tokenSymbol": "XLM",
+          "decimal_point": 8,
+          "tokenType": "Stellar",
+          "blockchain": "Stellar",
+          "explorer": "https://stellar.expert/explorer/public/tx/",
+          "listingDate": "2022-03-25T15:24:05Z",
+          "blockchainName": "Stellar",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Stellar.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "LTC",
+      "color": "#2C63B9",
+      "currencySymbol": "LTC",
+      "name": "Litecoin",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_LTC.svg",
+      "decimal_point": 8,
+      "listingDate": "2022-03-25T15:31:49Z",
+      "wallets": [
+        {
+          "currencyGroup": "LTC",
+          "tokenSymbol": "LTC",
+          "decimal_point": 8,
+          "tokenType": "Litecoin",
+          "blockchain": "Litecoin",
+          "explorer": "https://blockchair.com/litecoin/transaction/",
+          "listingDate": "2022-03-25T15:31:49Z",
+          "blockchainName": "Litecoin",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Litecoin.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ALGO",
+      "color": "#2CB7CB",
+      "currencySymbol": "ALGO",
+      "name": "Algorand",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ALGO.svg",
+      "decimal_point": 6,
+      "listingDate": "2022-03-25T15:31:50Z",
+      "wallets": [
+        {
+          "currencyGroup": "ALGO",
+          "tokenSymbol": "ALGO",
+          "decimal_point": 6,
+          "tokenType": "Algorand",
+          "blockchain": "Algorand",
+          "explorer": "https://algoexplorer.io/tx/",
+          "listingDate": "2022-03-25T15:31:50Z",
+          "blockchainName": "Algorand",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Algorand.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "HBAR",
+      "color": "#4981E4",
+      "currencySymbol": "HBAR",
+      "name": "Hedera Hashgraph",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_HBAR.svg",
+      "decimal_point": 8,
+      "listingDate": "2022-03-25T15:31:51Z",
+      "wallets": [
+        {
+          "currencyGroup": "HBAR",
+          "tokenSymbol": "HBAR",
+          "decimal_point": 8,
+          "tokenType": "Hedera Hashgraph",
+          "blockchain": "Hedera Hashgraph",
+          "explorer": "https://ledger.hashlog.io/tx/",
+          "listingDate": "2022-03-25T15:31:51Z",
+          "blockchainName": "Hedera Hashgraph",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Hedera.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ZEC",
+      "color": "#F4B728",
+      "currencySymbol": "ZEC",
+      "name": "Zcash",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ZEC.svg",
+      "decimal_point": 8,
+      "listingDate": "2022-03-25T15:44:01Z",
+      "wallets": [
+        {
+          "currencyGroup": "ZEC",
+          "tokenSymbol": "ZEC",
+          "decimal_point": 8,
+          "tokenType": "Zcash",
+          "blockchain": "Zcash",
+          "explorer": "https://blockchair.com/zcash/transaction/",
+          "listingDate": "2022-03-25T15:44:01Z",
+          "blockchainName": "Zcash",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ZCash.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "IMX",
+      "color": "#17B5CB",
+      "currencySymbol": "IMX",
+      "name": "Immutable X",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_IMX.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-03-25T15:44:02Z",
+      "wallets": [
+        {
+          "currencyGroup": "IMX",
+          "tokenSymbol": "IMX",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-03-25T15:44:02Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "APE",
+      "color": "#0054F9",
+      "currencySymbol": "APE",
+      "name": "ApeCoin",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_APE.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-03-25T15:44:03Z",
+      "wallets": [
+        {
+          "currencyGroup": "APE",
+          "tokenSymbol": "APE",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-03-25T15:44:03Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "COTI",
+      "color": "#0FBCE2",
+      "currencySymbol": "COTI",
+      "name": "COTI",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_COTI.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-05-20T04:00:05Z",
+      "wallets": [
+        {
+          "currencyGroup": "COTI",
+          "tokenSymbol": "COTI",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-05-20T04:00:05Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "DYDX",
+      "color": "#676DF6",
+      "currencySymbol": "DYDX",
+      "name": "dYdX",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_DYDX.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-05-20T04:00:06Z",
+      "wallets": [
+        {
+          "currencyGroup": "DYDX",
+          "tokenSymbol": "DYDX",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-05-20T04:00:06Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "OMG",
+      "color": "#225CFF",
+      "currencySymbol": "OMG",
+      "name": "OMG Network",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_OMG.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-05-20T04:00:07Z",
+      "wallets": [
+        {
+          "currencyGroup": "OMG",
+          "tokenSymbol": "OMG",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-05-20T04:00:07Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "AUDIO",
+      "color": "#CF00E1",
+      "currencySymbol": "AUDIO",
+      "name": "Audius",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_AUDIO.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-05-20T04:00:08Z",
+      "wallets": [
+        {
+          "currencyGroup": "AUDIO",
+          "tokenSymbol": "AUDIO",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-05-20T04:00:08Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "CHZ",
+      "color": "#DF193B",
+      "currencySymbol": "CHZ",
+      "name": "Chiliz",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_CHZ.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-05-20T04:00:09Z",
+      "wallets": [
+        {
+          "currencyGroup": "CHZ",
+          "tokenSymbol": "CHZ",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-05-20T04:00:09Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "RAY",
+      "color": "#7866D5",
+      "currencySymbol": "RAY",
+      "name": "Raydium",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_RAY.svg",
+      "decimal_point": 6,
+      "listingDate": "2022-05-20T04:00:10Z",
+      "wallets": [
+        {
+          "currencyGroup": "RAY",
+          "tokenSymbol": "RAY",
+          "decimal_point": 6,
+          "tokenType": "Solana",
+          "blockchain": "Solana",
+          "explorer": "https://explorer.solana.com/tx/",
+          "listingDate": "2022-05-20T04:00:10Z",
+          "blockchainName": "Solana",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/SOL.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "SRM",
+      "color": "#4FCFE0",
+      "currencySymbol": "SRM",
+      "name": "Serum",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_SRM.svg",
+      "decimal_point": 6,
+      "listingDate": "2022-05-20T04:00:11Z",
+      "wallets": [
+        {
+          "currencyGroup": "SRM",
+          "tokenSymbol": "SRM",
+          "decimal_point": 6,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-05-20T04:00:11Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        },
+        {
+          "currencyGroup": "SRM",
+          "tokenSymbol": "SRMSOLANA",
+          "decimal_point": 6,
+          "tokenType": "Solana",
+          "blockchain": "Solana",
+          "explorer": "https://explorer.solana.com/tx/",
+          "listingDate": "2022-07-07T07:00:01Z",
+          "blockchainName": "Solana",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/SOL.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ILV",
+      "color": "#6837A1",
+      "currencySymbol": "ILV",
+      "name": "Illuvium",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ILV.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-05-20T04:00:12Z",
+      "wallets": [
+        {
+          "currencyGroup": "ILV",
+          "tokenSymbol": "ILV",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-05-20T04:00:12Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "CVX",
+      "color": "#1682FE",
+      "currencySymbol": "CVX",
+      "name": "Convex Finance",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_CVX.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-05-20T04:00:13Z",
+      "wallets": [
+        {
+          "currencyGroup": "CVX",
+          "tokenSymbol": "CVX",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-05-20T04:00:13Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "GMT",
+      "color": "#DEAA25",
+      "currencySymbol": "GMT",
+      "name": "STEPN",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_GMT.svg",
+      "decimal_point": 9,
+      "listingDate": "2022-05-20T04:00:14Z",
+      "wallets": [
+        {
+          "currencyGroup": "GMT",
+          "tokenSymbol": "GMT",
+          "decimal_point": 9,
+          "tokenType": "Solana",
+          "blockchain": "Solana",
+          "explorer": "https://explorer.solana.com/tx/",
+          "listingDate": "2022-05-20T04:00:14Z",
+          "blockchainName": "Solana",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/SOL.svg"
+        },
+        {
+          "currencyGroup": "GMT",
+          "tokenSymbol": "GMTBSC",
+          "decimal_point": 8,
+          "tokenType": "BEP-20",
+          "blockchain": "Binance Smartchain",
+          "explorer": "https://bscscan.com/tx/",
+          "listingDate": "2022-06-15T07:00:08Z",
+          "blockchainName": "BNB Smart Chain",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/BEP-20+(BSC).svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "KSM",
+      "color": "#EB007A",
+      "currencySymbol": "KSM",
+      "name": "Kusama",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_KSM.svg",
+      "decimal_point": 12,
+      "listingDate": "2022-05-20T04:00:15Z",
+      "wallets": [
+        {
+          "currencyGroup": "KSM",
+          "tokenSymbol": "KSM",
+          "decimal_point": 12,
+          "tokenType": "Kusama",
+          "blockchain": "Kusama",
+          "explorer": "https://kusama.subscan.io/extrinsic/",
+          "listingDate": "2022-05-20T04:00:15Z",
+          "blockchainName": "Kusama",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Kusama.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ENJ",
+      "color": "#7866D5",
+      "currencySymbol": "ENJ",
+      "name": "Enjin Coin",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ENJ.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-05-20T04:00:16Z",
+      "wallets": [
+        {
+          "currencyGroup": "ENJ",
+          "tokenSymbol": "ENJ",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-05-20T04:00:16Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "LRC",
+      "color": "#3370FF",
+      "currencySymbol": "LRC",
+      "name": "Loopring",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_LRC.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-05-20T04:00:17Z",
+      "wallets": [
+        {
+          "currencyGroup": "LRC",
+          "tokenSymbol": "LRC",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-05-20T04:00:17Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "LDO",
+      "color": "#469BF0",
+      "currencySymbol": "LDO",
+      "name": "Lido DAO",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_LDO.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-05-20T04:00:18Z",
+      "wallets": [
+        {
+          "currencyGroup": "LDO",
+          "tokenSymbol": "LDO",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-05-20T04:00:18Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "LUNA",
+      "color": "#D46547",
+      "currencySymbol": "LUNA",
+      "name": "Terra 2.0",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_LUNA2.svg",
+      "decimal_point": 6,
+      "listingDate": "2022-06-16T04:00:00Z",
+      "wallets": [
+        {
+          "currencyGroup": "LUNA",
+          "tokenSymbol": "LUNA",
+          "decimal_point": 6,
+          "tokenType": "Terra",
+          "blockchain": "Terra",
+          "explorer": "https://finder.terra.money/mainnet/tx/",
+          "listingDate": "2022-06-16T04:00:00Z",
+          "blockchainName": "Terra",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/TERRA.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "BAT",
+      "color": "#FF5000",
+      "currencySymbol": "BAT",
+      "name": "Basic Attention Token",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_BAT.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-07-28T07:00:00Z",
+      "wallets": [
+        {
+          "currencyGroup": "BAT",
+          "tokenSymbol": "BAT",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-07-28T07:00:00Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "PAXG",
+      "color": "#DEC21C",
+      "currencySymbol": "PAXG",
+      "name": "Pax Gold",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_PAXG.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-07-28T07:00:01Z",
+      "wallets": [
+        {
+          "currencyGroup": "PAXG",
+          "tokenSymbol": "PAXG",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-07-28T07:00:01Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "WAVES",
+      "color": "#0055FE",
+      "currencySymbol": "WAVES",
+      "name": "Waves",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_WAVES.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-07-28T07:00:02Z",
+      "wallets": [
+        {
+          "currencyGroup": "WAVES",
+          "tokenSymbol": "WAVES",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-07-28T07:00:02Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "STORJ",
+      "color": "#276CFF",
+      "currencySymbol": "STORJ",
+      "name": "Storj",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_STORJ.svg",
+      "decimal_point": 8,
+      "listingDate": "2022-07-28T07:00:03Z",
+      "wallets": [
+        {
+          "currencyGroup": "STORJ",
+          "tokenSymbol": "STORJ",
+          "decimal_point": 8,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-07-28T07:00:03Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ENS",
+      "color": "#53A1FF",
+      "currencySymbol": "ENS",
+      "name": "Ethereum Name Service",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ENS.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-07-28T07:00:04Z",
+      "wallets": [
+        {
+          "currencyGroup": "ENS",
+          "tokenSymbol": "ENS",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-07-28T07:00:04Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "OP",
+      "color": "#FF4258",
+      "currencySymbol": "OP",
+      "name": "Optimism",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_OP.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-07-28T07:00:05Z",
+      "wallets": [
+        {
+          "currencyGroup": "OP",
+          "tokenSymbol": "OP",
+          "decimal_point": 18,
+          "tokenType": "Optimism",
+          "blockchain": "Optimism",
+          "explorer": "https://optimistic.etherscan.io/tx/",
+          "listingDate": "2022-07-28T07:00:05Z",
+          "blockchainName": "Optimism",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Optimism.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ZIL",
+      "color": "#49C1BF",
+      "currencySymbol": "ZIL",
+      "name": "Zilliqa",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ZIL.svg",
+      "decimal_point": 12,
+      "listingDate": "2022-07-28T07:00:06Z",
+      "wallets": [
+        {
+          "currencyGroup": "ZIL",
+          "tokenSymbol": "ZIL",
+          "decimal_point": 12,
+          "tokenType": "Ziliqa",
+          "blockchain": "Ziliqa",
+          "explorer": "https://viewblock.io/zilliqa/tx/",
+          "listingDate": "2022-07-28T07:00:06Z",
+          "blockchainName": "Ziliqa",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ZIL.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "FIL",
+      "color": "#0090FF",
+      "currencySymbol": "FIL",
+      "name": "Filecoin",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_FIL.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-07-28T07:00:07Z",
+      "wallets": [
+        {
+          "currencyGroup": "FIL",
+          "tokenSymbol": "FIL",
+          "decimal_point": 18,
+          "tokenType": "Filecoin",
+          "blockchain": "Filecoin",
+          "explorer": "https://filfox.info/en/message/",
+          "listingDate": "2022-07-28T07:00:07Z",
+          "blockchainName": "Filecoin",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/FIL.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "BCH",
+      "color": "#0AC18E",
+      "currencySymbol": "BCH",
+      "name": "Bitcoin Cash",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_BCH.svg",
+      "decimal_point": 8,
+      "listingDate": "2022-07-28T07:00:08Z",
+      "wallets": [
+        {
+          "currencyGroup": "BCH",
+          "tokenSymbol": "BCH",
+          "decimal_point": 8,
+          "tokenType": "Bitcoin Cash",
+          "blockchain": "Bitcoin Cash",
+          "explorer": "https://blockchair.com/bitcoin-cash/transaction/",
+          "listingDate": "2022-07-28T07:00:08Z",
+          "blockchainName": "Bitcoin Cash",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Bitcoincash.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "VET",
+      "color": "#23B2F9",
+      "currencySymbol": "VET",
+      "name": "VeChain",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_VET.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-07-28T07:00:09Z",
+      "wallets": [
+        {
+          "currencyGroup": "VET",
+          "tokenSymbol": "VET",
+          "decimal_point": 18,
+          "tokenType": "VeChain",
+          "blockchain": "VeChain",
+          "explorer": "https://explore.vechain.org/transactions/",
+          "listingDate": "2022-07-28T07:00:09Z",
+          "blockchainName": "VeChain",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Vechain.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "RUNE",
+      "color": "#28F5B0",
+      "currencySymbol": "RUNE",
+      "name": "THORChain",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_RUNE.svg",
+      "decimal_point": 8,
+      "listingDate": "2022-07-28T07:00:10Z",
+      "wallets": [
+        {
+          "currencyGroup": "RUNE",
+          "tokenSymbol": "RUNE",
+          "decimal_point": 8,
+          "tokenType": "THORChain",
+          "blockchain": "THORChain",
+          "explorer": "https://thorchain.net/tx/",
+          "listingDate": "2022-07-28T07:00:10Z",
+          "blockchainName": "THORChain",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Thorchain.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "DASH",
+      "color": "#008DE4",
+      "currencySymbol": "DASH",
+      "name": "Dash",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_DASH.svg",
+      "decimal_point": 8,
+      "listingDate": "2022-07-28T07:00:11Z",
+      "wallets": [
+        {
+          "currencyGroup": "DASH",
+          "tokenSymbol": "DASH",
+          "decimal_point": 8,
+          "tokenType": "Dash",
+          "blockchain": "Dash",
+          "explorer": "https://blockchair.com/dash/transaction/",
+          "listingDate": "2022-07-28T07:00:11Z",
+          "blockchainName": "Dash",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Dash.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ROSE",
+      "color": "#0089DB",
+      "currencySymbol": "ROSE",
+      "name": "Oasis Network",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ROSE.svg",
+      "decimal_point": 8,
+      "listingDate": "2022-08-30T07:00:00Z",
+      "wallets": [
+        {
+          "currencyGroup": "ROSE",
+          "tokenSymbol": "ROSE",
+          "decimal_point": 8,
+          "tokenType": "Oasis Network",
+          "blockchain": "Oasis Network",
+          "explorer": "https://www.oasisscan.com/transactions/",
+          "listingDate": "2022-08-30T07:00:00Z",
+          "blockchainName": "Oasis Network",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Oasis.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "FLOW",
+      "color": "#00EF8B",
+      "currencySymbol": "FLOW",
+      "name": "Flow",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_FLOW.svg",
+      "decimal_point": 8,
+      "listingDate": "2022-08-30T07:00:01Z",
+      "wallets": [
+        {
+          "currencyGroup": "FLOW",
+          "tokenSymbol": "FLOW",
+          "decimal_point": 8,
+          "tokenType": "Flow",
+          "blockchain": "Flow",
+          "explorer": "https://flowscan.org/transaction/",
+          "listingDate": "2022-08-30T07:00:01Z",
+          "blockchainName": "Flow",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Flow.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "EGLD",
+      "color": "#2C67EA",
+      "currencySymbol": "EGLD",
+      "name": "Elrond",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_EGLD.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-08-30T07:00:02Z",
+      "wallets": [
+        {
+          "currencyGroup": "EGLD",
+          "tokenSymbol": "EGLD",
+          "decimal_point": 18,
+          "tokenType": "Elrond",
+          "blockchain": "Elrond",
+          "explorer": "https://explorer.elrond.com/transactions/",
+          "listingDate": "2022-08-30T07:00:02Z",
+          "blockchainName": "Elrond",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Elrond.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "THETA",
+      "color": "#2AB8E6",
+      "currencySymbol": "THETA",
+      "name": "Theta Network",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_THETA.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-08-30T07:00:03Z",
+      "wallets": [
+        {
+          "currencyGroup": "THETA",
+          "tokenSymbol": "THETA",
+          "decimal_point": 18,
+          "tokenType": "Theta Network",
+          "blockchain": "Theta Network",
+          "explorer": "https://explorer.thetatoken.org/txs/",
+          "listingDate": "2022-08-30T07:00:03Z",
+          "blockchainName": "Theta Network",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Theta.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "KAVA",
+      "color": "#FF433E",
+      "currencySymbol": "KAVA",
+      "name": "Kava",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_KAVA.svg",
+      "decimal_point": 6,
+      "listingDate": "2022-08-30T07:00:04Z",
+      "wallets": [
+        {
+          "currencyGroup": "KAVA",
+          "tokenSymbol": "KAVA",
+          "decimal_point": 6,
+          "tokenType": "Kava",
+          "blockchain": "Kava",
+          "explorer": "https://www.mintscan.io/kava/txs/",
+          "listingDate": "2022-08-30T07:00:04Z",
+          "blockchainName": "Kava",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Kava.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "KDA",
+      "color": "#EA078C",
+      "currencySymbol": "KDA",
+      "name": "Kadena",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_KDA.svg",
+      "decimal_point": 12,
+      "listingDate": "2022-08-30T07:00:05Z",
+      "wallets": [
+        {
+          "currencyGroup": "KDA",
+          "tokenSymbol": "KDA",
+          "decimal_point": 12,
+          "tokenType": "Kadena",
+          "blockchain": "Kadena",
+          "explorer": "https://explorer.chainweb.com/mainnet/txdetail/",
+          "listingDate": "2022-08-30T07:00:05Z",
+          "blockchainName": "Kadena",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Kadena.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ANKR",
+      "color": "#3969E6",
+      "currencySymbol": "ANKR",
+      "name": "Ankr Network",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ANKR.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-09-27T07:00:00Z",
+      "wallets": [
+        {
+          "currencyGroup": "ANKR",
+          "tokenSymbol": "ANKR",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-09-27T07:00:00Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "KNC",
+      "color": "#31CB9E",
+      "currencySymbol": "KNC",
+      "name": "Kyber Network",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_KNC.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-09-27T07:00:01Z",
+      "wallets": [
+        {
+          "currencyGroup": "KNC",
+          "tokenSymbol": "KNC",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-09-27T07:00:01Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ANT",
+      "color": "#01C2F0",
+      "currencySymbol": "ANT",
+      "name": "Aragon",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ANT.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-09-27T07:00:02Z",
+      "wallets": [
+        {
+          "currencyGroup": "ANT",
+          "tokenSymbol": "ANT",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-09-27T07:00:02Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "INJ",
+      "color": "#238CBA",
+      "currencySymbol": "INJ",
+      "name": "Injective Protocol",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_INJ.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-09-27T07:00:03Z",
+      "wallets": [
+        {
+          "currencyGroup": "INJ",
+          "tokenSymbol": "INJ",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-09-27T07:00:03Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "LOOKS",
+      "color": "#2DE370",
+      "currencySymbol": "LOOKS",
+      "name": "LooksRare",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_LOOKS.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-09-27T07:00:04Z",
+      "wallets": [
+        {
+          "currencyGroup": "LOOKS",
+          "tokenSymbol": "LOOKS",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-09-27T07:00:04Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "LPT",
+      "color": "#59DB7E",
+      "currencySymbol": "LPT",
+      "name": "Livepeer",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_LPT.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-09-27T07:00:05Z",
+      "wallets": [
+        {
+          "currencyGroup": "LPT",
+          "tokenSymbol": "LPT",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-09-27T07:00:05Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "AUCTION",
+      "color": "#6B4CC3",
+      "currencySymbol": "AUCTION",
+      "name": "Bounce",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_AUCTION.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-09-27T07:00:06Z",
+      "wallets": [
+        {
+          "currencyGroup": "AUCTION",
+          "tokenSymbol": "AUCTION",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-09-27T07:00:06Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "GMX",
+      "color": "#3468E1",
+      "currencySymbol": "GMX",
+      "name": "GMX",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_GMX.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-09-27T07:00:07Z",
+      "wallets": [
+        {
+          "currencyGroup": "GMX",
+          "tokenSymbol": "GMX",
+          "decimal_point": 18,
+          "tokenType": "Arbitrum",
+          "blockchain": "Arbitrum",
+          "explorer": "https://arbiscan.io/tx/",
+          "listingDate": "2022-09-27T07:00:07Z",
+          "blockchainName": "Arbitrum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Arbitrum.svg"
+        },
+        {
+          "currencyGroup": "GMX",
+          "tokenSymbol": "GMXAVAX",
+          "decimal_point": 18,
+          "tokenType": "AVAX - C Chain",
+          "blockchain": "Avalanche C-Chain",
+          "explorer": "https://snowtrace.io/tx/",
+          "listingDate": "2022-09-27T07:00:08Z",
+          "blockchainName": "AVAX - C Chain",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/AVAX.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "RSR",
+      "color": "#533EAF",
+      "currencySymbol": "RSR",
+      "name": "Reserve Rights",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_RSR.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-10-27T07:00:00Z",
+      "wallets": [
+        {
+          "currencyGroup": "RSR",
+          "tokenSymbol": "RSR",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-10-27T07:00:00Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ERN",
+      "color": "#31CB9E",
+      "currencySymbol": "ERN",
+      "name": "Ethernity Chain",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ERN.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-10-27T07:00:01Z",
+      "wallets": [
+        {
+          "currencyGroup": "ERN",
+          "tokenSymbol": "ERN",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-10-27T07:00:01Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "JST",
+      "color": "#B41514",
+      "currencySymbol": "JST",
+      "name": "Just",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_JST.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-10-27T07:00:02Z",
+      "wallets": [
+        {
+          "currencyGroup": "JST",
+          "tokenSymbol": "JST",
+          "decimal_point": 18,
+          "tokenType": "TRON",
+          "blockchain": "TRON",
+          "explorer": "https://tronscan.org/#/transaction/",
+          "listingDate": "2022-10-27T07:00:02Z",
+          "blockchainName": "Tron",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/TRC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "HIVE",
+      "color": "#E31337",
+      "currencySymbol": "HIVE",
+      "name": "Hive",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_HIVE.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-10-27T07:00:03Z",
+      "wallets": [
+        {
+          "currencyGroup": "HIVE",
+          "tokenSymbol": "HIVE",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-10-27T07:00:03Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "LIT",
+      "color": "#14EA85",
+      "currencySymbol": "LIT",
+      "name": "Litentry",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_LIT.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-10-27T07:00:04Z",
+      "wallets": [
+        {
+          "currencyGroup": "LIT",
+          "tokenSymbol": "LIT",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-10-27T07:00:04Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "NMR",
+      "color": "#E4E911",
+      "currencySymbol": "NMR",
+      "name": "Numeraire",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_NMR.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-10-27T07:00:05Z",
+      "wallets": [
+        {
+          "currencyGroup": "NMR",
+          "tokenSymbol": "NMR",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-10-27T07:00:05Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "RVN",
+      "color": "#F0513A",
+      "currencySymbol": "RVN",
+      "name": "Raven Coin",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_RVN.svg",
+      "decimal_point": 8,
+      "listingDate": "2022-10-27T07:00:06Z",
+      "wallets": [
+        {
+          "currencyGroup": "RVN",
+          "tokenSymbol": "RVN",
+          "decimal_point": 8,
+          "tokenType": "Ravencoin",
+          "blockchain": "Ravencoin",
+          "explorer": "https://ravencoin.network/rvn/transaction/",
+          "listingDate": "2022-10-27T07:00:06Z",
+          "blockchainName": "Ravencoin",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Ravencoin.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "NEO",
+      "color": "#00AF92",
+      "currencySymbol": "NEO",
+      "name": "Neo",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_NEO.svg",
+      "decimal_point": 8,
+      "listingDate": "2022-10-27T07:00:07Z",
+      "wallets": [
+        {
+          "currencyGroup": "NEO",
+          "tokenSymbol": "NEO",
+          "decimal_point": 8,
+          "tokenType": "Neo",
+          "blockchain": "Neo",
+          "explorer": "https://neoscan.io/transaction/",
+          "listingDate": "2022-10-27T07:00:07Z",
+          "blockchainName": "Neo",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Neo.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "SKL",
+      "color": "#29FF94",
+      "currencySymbol": "SKL",
+      "name": "Skale Network",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_SKL.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-10-27T07:00:08Z",
+      "wallets": [
+        {
+          "currencyGroup": "SKL",
+          "tokenSymbol": "SKL",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-10-27T07:00:08Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ACH",
+      "color": "#18156C",
+      "currencySymbol": "ACH",
+      "name": "Alchemy Pay",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ACH.svg",
+      "decimal_point": 8,
+      "listingDate": "2022-10-27T07:00:09Z",
+      "wallets": [
+        {
+          "currencyGroup": "ACH",
+          "tokenSymbol": "ACH",
+          "decimal_point": 8,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-10-27T07:00:09Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ATA",
+      "color": "#E5734C",
+      "currencySymbol": "ATA",
+      "name": "Automata",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ATA.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-10-27T07:00:10Z",
+      "wallets": [
+        {
+          "currencyGroup": "ATA",
+          "tokenSymbol": "ATA",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-10-27T07:00:10Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "MDX",
+      "color": "#4CA9DC",
+      "currencySymbol": "MDX",
+      "name": "MDEX",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_MDX.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-10-27T07:00:11Z",
+      "wallets": [
+        {
+          "currencyGroup": "MDX",
+          "tokenSymbol": "MDX",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-10-27T07:00:11Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "WOO",
+      "color": "#39369F",
+      "currencySymbol": "WOO",
+      "name": "WOO Network",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_WOO.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-10-27T07:00:12Z",
+      "wallets": [
+        {
+          "currencyGroup": "WOO",
+          "tokenSymbol": "WOO",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-10-27T07:00:12Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "IOTA",
+      "color": "#0CC1B7",
+      "currencySymbol": "IOTA",
+      "name": "MIOTA",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_MIOTA.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-10-27T07:00:13Z",
+      "wallets": [
+        {
+          "currencyGroup": "IOTA",
+          "tokenSymbol": "IOTA",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-10-27T07:00:13Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "BSW",
+      "color": "#1291EE",
+      "currencySymbol": "BSW",
+      "name": "Biswap",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_BSW.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-10-27T07:00:14Z",
+      "wallets": [
+        {
+          "currencyGroup": "BSW",
+          "tokenSymbol": "BSW",
+          "decimal_point": 18,
+          "tokenType": "BEP-20",
+          "blockchain": "Binance Smartchain",
+          "explorer": "https://bscscan.com/tx/",
+          "listingDate": "2022-10-27T07:00:14Z",
+          "blockchainName": "BNB Smart Chain",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/BEP-20+(BSC).svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "CHR",
+      "color": "#CB65B7",
+      "currencySymbol": "CHR",
+      "name": "Chromia",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_CHR.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-10-27T07:00:15Z",
+      "wallets": [
+        {
+          "currencyGroup": "CHR",
+          "tokenSymbol": "CHR",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-10-27T07:00:15Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ONT",
+      "color": "#2DA7BF",
+      "currencySymbol": "ONT",
+      "name": "Ontology",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ONT.svg",
+      "decimal_point": 9,
+      "listingDate": "2022-10-27T07:00:16Z",
+      "wallets": [
+        {
+          "currencyGroup": "ONT",
+          "tokenSymbol": "ONT",
+          "decimal_point": 9,
+          "tokenType": "Ontology",
+          "blockchain": "Ontology",
+          "explorer": "https://explorer.ont.io/tx/",
+          "listingDate": "2022-10-27T07:00:16Z",
+          "blockchainName": "Ontology",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Ontology.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ARPA",
+      "color": "#42E8E0",
+      "currencySymbol": "ARPA",
+      "name": "Arpa Chain",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ARPA.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-10-27T07:00:17Z",
+      "wallets": [
+        {
+          "currencyGroup": "ARPA",
+          "tokenSymbol": "ARPA",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-10-27T07:00:17Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "PUNDIX",
+      "color": "#E2C103",
+      "currencySymbol": "PUNDIX",
+      "name": "Pundi X",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_PUNDIX.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-10-27T07:00:18Z",
+      "wallets": [
+        {
+          "currencyGroup": "PUNDIX",
+          "tokenSymbol": "PUNDIX",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-10-27T07:00:18Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ZRX",
+      "color": "#8F1B22",
+      "currencySymbol": "ZRX",
+      "name": "0x",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_0X.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-10-27T07:00:19Z",
+      "wallets": [
+        {
+          "currencyGroup": "ZRX",
+          "tokenSymbol": "ZRX",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2022-10-27T07:00:19Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "APT",
+      "color": "#3D3B80",
+      "currencySymbol": "APT",
+      "name": "Aptos",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_APT.svg",
+      "decimal_point": 8,
+      "listingDate": "2022-10-27T07:00:20Z",
+      "wallets": [
+        {
+          "currencyGroup": "APT",
+          "tokenSymbol": "APT",
+          "decimal_point": 8,
+          "tokenType": "Aptos",
+          "blockchain": "Aptos",
+          "explorer": "https://explorer.aptoslabs.com/txn/",
+          "listingDate": "2022-10-27T07:00:20Z",
+          "blockchainName": "Aptos",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Aptos.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "PGALA",
+      "color": "#4F6BFF",
+      "currencySymbol": "PGALA",
+      "name": "pGALA",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_PGALA.svg",
+      "decimal_point": 18,
+      "listingDate": "2022-11-18T07:01:17Z",
+      "wallets": [
+        {
+          "currencyGroup": "PGALA",
+          "tokenSymbol": "PGALA",
+          "decimal_point": 18,
+          "tokenType": "BEP-20",
+          "blockchain": "Binance Smartchain",
+          "explorer": "https://bscscan.com/tx/",
+          "listingDate": "2022-11-18T07:01:17Z",
+          "blockchainName": "BNB Smart Chain",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/BEP-20+(BSC).svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "BUSD",
+      "color": "#FEBF11",
+      "currencySymbol": "BUSD",
+      "name": "Binance USD",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_BUSD.svg",
+      "decimal_point": 18,
+      "listingDate": "2023-02-06T07:00:00Z",
+      "wallets": [
+        {
+          "currencyGroup": "BUSD",
+          "tokenSymbol": "BUSD",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2023-02-06T07:00:00Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        },
+        {
+          "currencyGroup": "BUSD",
+          "tokenSymbol": "BUSDBSC",
+          "decimal_point": 18,
+          "tokenType": "BEP-20",
+          "blockchain": "Binance Smartchain",
+          "explorer": "https://bscscan.com/tx/",
+          "listingDate": "2023-02-06T07:00:01Z",
+          "blockchainName": "BNB Smart Chain",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/BEP-20+(BSC).svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "FXS",
+      "color": "#88B4F5",
+      "currencySymbol": "FXS",
+      "name": "Frax Share",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_FXS.svg",
+      "decimal_point": 18,
+      "listingDate": "2023-03-01T07:00:00Z",
+      "wallets": [
+        {
+          "currencyGroup": "FXS",
+          "tokenSymbol": "FXS",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2023-03-01T07:00:00Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        },
+        {
+          "currencyGroup": "FXS",
+          "tokenSymbol": "FXSBSC",
+          "decimal_point": 18,
+          "tokenType": "BEP-20",
+          "blockchain": "Binance Smartchain",
+          "explorer": "https://bscscan.com/tx/",
+          "listingDate": "2023-03-01T07:00:01Z",
+          "blockchainName": "BNB Smart Chain",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/BEP-20+(BSC).svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "FIS",
+      "color": "#00F3AB",
+      "currencySymbol": "FIS",
+      "name": "Stafi",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_FIS.svg",
+      "decimal_point": 18,
+      "listingDate": "2023-03-01T07:00:02Z",
+      "wallets": [
+        {
+          "currencyGroup": "FIS",
+          "tokenSymbol": "FIS",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2023-03-01T07:00:02Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "FET",
+      "color": "#0847B0",
+      "currencySymbol": "FET",
+      "name": "Fetch.ai",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_FET.svg",
+      "decimal_point": 18,
+      "listingDate": "2023-03-01T07:00:03Z",
+      "wallets": [
+        {
+          "currencyGroup": "FET",
+          "tokenSymbol": "FET",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2023-03-01T07:00:03Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "RLC",
+      "color": "#FCD15A",
+      "currencySymbol": "RLC",
+      "name": "iExec RLC",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_RLC.svg",
+      "decimal_point": 9,
+      "listingDate": "2023-03-01T07:00:04Z",
+      "wallets": [
+        {
+          "currencyGroup": "RLC",
+          "tokenSymbol": "RLC",
+          "decimal_point": 9,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2023-03-01T07:00:04Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "RPL",
+      "color": "#F59E0B",
+      "currencySymbol": "RPL",
+      "name": "Rocket Pool",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_RPL.svg",
+      "decimal_point": 18,
+      "listingDate": "2023-03-01T07:00:05Z",
+      "wallets": [
+        {
+          "currencyGroup": "RPL",
+          "tokenSymbol": "RPL",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2023-03-01T07:00:05Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "BLUR",
+      "color": "#FF6100",
+      "currencySymbol": "BLUR",
+      "name": "BLUR",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_BLUR.svg",
+      "decimal_point": 18,
+      "listingDate": "2023-03-01T07:00:06Z",
+      "wallets": [
+        {
+          "currencyGroup": "BLUR",
+          "tokenSymbol": "BLUR",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2023-03-01T07:00:06Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "STX",
+      "color": "#5546FF",
+      "currencySymbol": "STX",
+      "name": "Stacks",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_STX.svg",
+      "decimal_point": 6,
+      "listingDate": "2023-03-23T06:00:00Z",
+      "wallets": [
+        {
+          "currencyGroup": "STX",
+          "tokenSymbol": "STX",
+          "decimal_point": 6,
+          "tokenType": "Stacks",
+          "blockchain": "Stacks",
+          "explorer": "https://explorer.stacks.co/txid/",
+          "listingDate": "2023-03-23T06:00:00Z",
+          "blockchainName": "Stacks",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Stacks.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ARB",
+      "color": "#28A0F0",
+      "currencySymbol": "ARB",
+      "name": "Arbitrum",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ARB.svg",
+      "decimal_point": 18,
+      "listingDate": "2023-03-23T07:00:00Z",
+      "wallets": [
+        {
+          "currencyGroup": "ARB",
+          "tokenSymbol": "ARB",
+          "decimal_point": 18,
+          "tokenType": "Arbitrum",
+          "blockchain": "Arbitrum",
+          "explorer": "https://arbiscan.io/tx/",
+          "listingDate": "2023-03-23T07:00:00Z",
+          "blockchainName": "Arbitrum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/Arbitrum.svg"
+        }
+      ]
+    },
+    {
+      "currencyGroup": "ID",
+      "color": "#21EEA9",
+      "currencySymbol": "ID",
+      "name": "SPACE ID",
+      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_ID.svg",
+      "decimal_point": 18,
+      "listingDate": "2023-03-24T07:00:02Z",
+      "wallets": [
+        {
+          "currencyGroup": "ID",
+          "tokenSymbol": "ID",
+          "decimal_point": 18,
+          "tokenType": "ERC-20",
+          "blockchain": "Ethereum",
+          "explorer": "https://etherscan.io/tx/",
+          "listingDate": "2023-03-24T07:00:02Z",
+          "blockchainName": "Ethereum",
+          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+        }
+      ]
+    }
+  ]
+}

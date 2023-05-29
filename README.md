@@ -1,6 +1,6 @@
-# Tox Bazaar
+# TokenBazar
 
-This is a [Next.js](https://nextjs.org/) project template bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project template bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) using `TypeScript`, `Tailwind CSS`, `Cypress` and `ESLint`.
 
 ## Getting Started
 
@@ -16,24 +16,59 @@ You can start editing the app and the page will auto-update as you edit the file
 
 ## Features
 
-- **Font Optimization**: This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-- **Linting**: ESLint is set up to ensure code quality and consistency.
-- **Styling**: Tailwind CSS is integrated for easy and responsive styling.
-- **Deployment**: Automatic deployment with [Vercel](https://vercel.com/).
-- **Data Fetching**: [SWR](https://swr.vercel.app/), the React hook library for data fetching, is utilized for efficient data management.
+- ### Data Fetching and State Management with React Hooks
+  [SWR](https://swr.vercel.app/), the React hook library is used for data fetching. SWR provides components with a stream of data updates and integrates well with Next.js. React hooks `useState` is also used throughout the app to manage state variables. Another React hook `useEffect` is also used to fetch `CurrencyData[]` the first time on mount and to update `PriceData[]` when new price data has been fetched using SWR with an interval of 1 second.
+- ### Modular CSS
+  The app integrates [Tailwind CSS](https://tailwindcss.com/), a popular utility-first CSS framework, to facilitate easy and responsive styling. For example, Tailwind enables quick development of `Dark Mode` feature.
+- ### `Dark Mode`
+  Dark Mode lets users to choose between light or dark theme while using this app.
+- ### Linting
+  ESLint and Prettier are set up to ensure code quality and consistency.
+- ### Testing
+  [Cypress](https://cypress.io/) is used for both end-to-end (e2e) and unit testing.
+- ### Automatic Deployment
+  The app is automatically deployed using [Vercel](https://vercel.com/), a popular hosting platform that provides seamless deployment workflows and scalability and works well with Next.js.
 
-## Public Endpoints
+## Token Prices Data
 
-The data presented in this project is obtained from the following public endpoints:
+The app utilizes two primary data types for its functionality, `CurrencyData` and `PriceData`:
+
+```typescript
+declare type CurrencyData = {
+  currencyGroup: string
+  name: string
+  currencySymbol: string
+  logo: number
+  color: string
+  decimal_point: number
+  listingDate: Date
+  price: PriceData
+}
+
+declare type PriceData = {
+  pair: string
+  latestPrice: number
+  day: number
+  week: number
+  month: number
+  year: number
+}
+```
+
+The data used in this project comes from two public endpoints listed at the end of this doc. The first endpoint gives us an array of `CurrencyData` objects that hold details about various cryptocurrencies or tokens. The second endpoint provides an array of `PriceData` objects, where the base currency in `PriceData.pair` matches the `CurrencyData.currencyGroup`. These endpoints allow the app to fetch real-time price data for presentation. However, it's important to note that only the second endpoint is used to update the data in real-time, as the first endpoint's data is not refreshed as frequently.
+
+## Things to Improve
+
+## Endpoints (API)
 
 <details>
 <summary>
-  Supported Currencies
+  Supported Tokens
 </summary>
 
 ---
 
-Retrieves a list of supported currencies.
+Retrieves a list of supported tokens.
 
 - **URL**: `https://api.pintu.co.id/v2/wallet/supportedCurrencies`
 - **Method**: GET
@@ -54,7 +89,7 @@ Retrieves a list of supported currencies.
       "color": "#0A68F4",
       "currencySymbol": "Rp",
       "name": "Rupiah Token",
-      "logo": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/circle_IDRT.svg",
+      "logo": "https://.../assets/images/logo/circle_IDRT.svg",
       "decimal_point": 0,
       "listingDate": "2020-09-15T09:43:42Z",
       "wallets": [
@@ -67,7 +102,7 @@ Retrieves a list of supported currencies.
           "explorer": "https://etherscan.io/tx/",
           "listingDate": "2020-09-15T09:43:43Z",
           "blockchainName": "Ethereum",
-          "logo": "https://s3.ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/blockchain/ERC-20.svg"
+          "logo": "https://.../ERC-20.svg"
         },
         ...
       ]
@@ -108,9 +143,7 @@ Retrieves a list of supported currencies.
 
 ---
 
-## Price Changes
-
-Retrieves the price changes for different trading pairs.
+Retrieves the price changes for different token trading pairs.
 
 - **URL**: `https://api.pintu.co.id/v2/trade/price-changes`
 - **Method**: GET

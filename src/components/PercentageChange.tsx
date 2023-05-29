@@ -1,7 +1,7 @@
 import React from 'react'
 import { percentageFormatter } from '@/utils'
 
-const NumberFormat: React.FC<{
+const PercentageChange: React.FC<{
   percentage: number
 }> = ({ percentage }) => {
   const formattedNumber = percentageFormatter(percentage)
@@ -45,11 +45,14 @@ const NumberFormat: React.FC<{
     ) : null
 
   return (
-    <div className={`flex justify-end ${numberStyle}`}>
+    <div className={`flex justify-end ${numberStyle}`} id='percentage'>
       {arrowIcon}
-      <div className='font-semibold'>{formattedNumber}</div>
+      <div className='font-semibold'>
+        {formattedNumber}
+        {percentage ? '%' : ''}
+      </div>
     </div>
   )
 }
 
-export default NumberFormat
+export default PercentageChange

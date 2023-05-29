@@ -1,7 +1,7 @@
 const endpoint: string = '/api/trade/price-changes/'
 
 const fetcher: () => Promise<PriceData[]> = async () => {
-  console.debug('Fetching prices...')
+  // console.debug('Fetching prices...')
   try {
     const response = await fetch(endpoint)
 
@@ -28,7 +28,7 @@ const fetcher: () => Promise<PriceData[]> = async () => {
 const endpointCurrency: string = '/api/wallet/supportedCurrencies'
 
 const fetchCurrencies: () => Promise<CurrencyData[]> = async () => {
-  console.debug('Fetching currencies...')
+  // console.debug('Fetching currencies...')
   try {
     const response = await fetch(endpointCurrency)
 
@@ -53,10 +53,13 @@ const fetchCurrencies: () => Promise<CurrencyData[]> = async () => {
   }
 }
 
+export const baseURL: string = 'https://pintu.co.id'
+
 const api = {
   fetchCurrencies,
   fetcher,
   endpoint,
+  baseURL,
 }
 
 export default api
