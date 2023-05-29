@@ -17,7 +17,9 @@ You can start editing the app and the page will auto-update as you edit the file
 ## Features
 
 - ### Data Fetching and State Management with React Hooks
-  [SWR](https://swr.vercel.app/), the React hook library is used for data fetching. SWR provides components with a stream of data updates and integrates well with Next.js. React hooks `useState` is also used throughout the app to manage state variables. Another React hook `useEffect` is also used to fetch `CurrencyData[]` the first time on mount and to update `PriceData[]` when new price data has been fetched using SWR with an interval of 1 second.
+  [SWR](https://swr.vercel.app/), the React hook library is used for data fetching. SWR provides components with a stream of data updates and integrates well with Next.js. React hook `useState` is also used throughout the app to manage state variables. Another React hook `useEffect` is also used to fetch `CurrencyData[]` the first time on mount and to update `PriceData[]` when new price data has been fetched using SWR with an interval of 1 second.
+- ### Data Cleansing
+  To ensure users see only the latest information, we remove currencies with stale or unchanged prices in the past 24 hours or month.
 - ### Modular CSS
   The app integrates [Tailwind CSS](https://tailwindcss.com/), a popular utility-first CSS framework, to facilitate easy and responsive styling. For example, Tailwind enables quick development of `Dark Mode` feature.
 - ### `Dark Mode`
@@ -55,9 +57,14 @@ declare type PriceData = {
 }
 ```
 
-The data used in this project comes from two public endpoints listed at the end of this doc. The first endpoint gives us an array of `CurrencyData` objects that hold details about various cryptocurrencies or tokens. The second endpoint provides an array of `PriceData` objects, where the base currency in `PriceData.pair` matches the `CurrencyData.currencyGroup`. These endpoints allow the app to fetch real-time price data for presentation. However, it's important to note that only the second endpoint is used to update the data in real-time, as the first endpoint's data is not refreshed as frequently.
+The data used in this project comes from two public endpoints listed at the end of this doc. The first endpoint gives us an array of `CurrencyData` objects that hold details about various cryptocurrencies or tokens. The second endpoint provides an array of `PriceData` objects, where the base currency in `PriceData.pair` matches the `CurrencyData.currencyGroup`. These endpoints allow the app to fetch real-time price data for presentation. However, it's important to note that only the second endpoint is used to update the `PriceData[]` in real-time, as the first endpoint's `CurrencyData[]` is not refreshed as frequently.
 
 ## Things to Improve
+
+- Add animation during changes to price and percentage data to attract user focus.
+- Add top movers component to highlight token with the greatest price change in the last 24h.
+- Relevant to top movers component, add React Context for better data management.
+- Improve color selection for background, table borders, and texts.
 
 ## Endpoints (API)
 
