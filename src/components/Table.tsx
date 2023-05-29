@@ -117,8 +117,8 @@ const Table: React.FC = (): JSX.Element => {
               </th>
               <th className='px-8 text-centre hidden sm:table-cell'>24h</th>
               <th className='px-8 text-centre hidden md:table-cell'>1w</th>
-              <th className='px-10 text-centre hidden lg:table-cell'>1m</th>
-              <th className='px-10 text-centre hidden md:table-cell'>1y</th>
+              <th className='px-10 text-centre hidden md:table-cell'>1m</th>
+              <th className='px-10 text-centre hidden lg:table-cell'>1y</th>
             </tr>
           </thead>
           <tbody>
@@ -146,10 +146,10 @@ const Table: React.FC = (): JSX.Element => {
                 <td className='text-right hidden md:table-cell font-mono'>
                   <PercentageChange percentage={currency.price.week} />
                 </td>
-                <td className='text-right hidden lg:table-cell font-mono'>
+                <td className='text-right hidden md:table-cell font-mono'>
                   <PercentageChange percentage={currency.price.month} />
                 </td>
-                <td className='text-right hidden md:table-cell font-mono'>
+                <td className='text-right hidden lg:table-cell font-mono'>
                   <PercentageChange percentage={currency.price.year} />
                 </td>
               </tr>

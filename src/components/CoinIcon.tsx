@@ -10,7 +10,9 @@ const CoinIcon: React.FC<IconProps> = ({ logo, name, color }) => {
   return (
     <div className='flex justify-between items-center'>
       <span>{name}</span>
-      <div style={{ width: '25px', height: '25px', position: 'relative' }}>
+      <div
+        className='hidden sm:table-cell'
+        style={{ width: '25px', height: '25px', position: 'relative' }}>
         <div
           className='w-5 h-5'
           style={{
