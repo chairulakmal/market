@@ -16,11 +16,18 @@ You can start editing the app and the page will auto-update as you edit the file
 
 ## Features
 
-- **SWR**: [SWR](https://swr.vercel.app/), the React hook library is used for data fetching. It provides components with a stream of data updates.
-- **Tailwind**: The app integrates Tailwind CSS, a popular utility-first CSS framework, to facilitate easy and responsive styling.
-- **Linting**: ESLint and Prettier are set up to ensure code quality and consistency.
-- **Cypress**: Cypress is used for both end-to-end (e2e) and unit testing.
-- **Deployment**: The app is automatically deployed using [Vercel](https://vercel.com/), a popular hosting platform that provides seamless deployment workflows and scalability and works well with Next.js app.
+- ### Data Fetching and State Management with React Hooks
+  [SWR](https://swr.vercel.app/), the React hook library is used for data fetching. SWR provides components with a stream of data updates and integrates well with Next.js. React hooks `useState` is also used throughout the app to manage state variables. Another React hook `useEffect` is also used to fetch `CurrencyData[]` the first time on mount and to update `PriceData[]` when new price data has been fetched using SWR with an interval of 1 second.
+- ### Modular CSS
+  The app integrates [Tailwind CSS](https://tailwindcss.com/), a popular utility-first CSS framework, to facilitate easy and responsive styling. For example, Tailwind enables quick development of `Dark Mode` feature.
+- ### `Dark Mode`
+  Dark Mode lets users to choose between light or dark theme while using this app.
+- ### Linting
+  ESLint and Prettier are set up to ensure code quality and consistency.
+- ### Testing
+  [Cypress](https://cypress.io/) is used for both end-to-end (e2e) and unit testing.
+- ### Automatic Deployment
+  The app is automatically deployed using [Vercel](https://vercel.com/), a popular hosting platform that provides seamless deployment workflows and scalability and works well with Next.js.
 
 ## Token Prices Data
 
@@ -48,7 +55,11 @@ declare type PriceData = {
 }
 ```
 
-The data used in this project comes from two public endpoints listed below. The first endpoint gives us an array of `CurrencyData` objects that hold details about various cryptocurrencies or tokens. The second endpoint provides an array of `PriceData` objects, where the base currency in `PriceData.pair` matches the `CurrencyData.currencyGroup`. These endpoints allow the app to fetch real-time price data for presentation. However, it's important to note that only the second endpoint is used to update the data in real-time, as the first endpoint's data is not refreshed as frequently.
+The data used in this project comes from two public endpoints listed at the end of this doc. The first endpoint gives us an array of `CurrencyData` objects that hold details about various cryptocurrencies or tokens. The second endpoint provides an array of `PriceData` objects, where the base currency in `PriceData.pair` matches the `CurrencyData.currencyGroup`. These endpoints allow the app to fetch real-time price data for presentation. However, it's important to note that only the second endpoint is used to update the data in real-time, as the first endpoint's data is not refreshed as frequently.
+
+## Things to Improve
+
+## Endpoints (API)
 
 <details>
 <summary>
